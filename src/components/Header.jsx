@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 function Header() {
   return (
     <header>
-      <img src={logo} alt="Logo PatePerro" width="20px" height="30px"/>
+      <img src={logo} alt="Logo PatePerro" width="40px" height="40px"/>
       <h1>Colectivo Fotográfico Pateperro</h1>
       <nav>
         <ul>

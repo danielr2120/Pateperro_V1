@@ -1,0 +1,75 @@
+:root {
+  --color-fondo: #FFFFFF;
+  --color-seccion: #F7F7F7;
+  --color-texto: #333333;
+  --color-acento: #3498DB;
+  --color-borde: #DDDDDD;
+  --padding-general: 20px;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: var(--color-seccion);
+  display: flex; /* activa Flexbox */
+  align-items: center; /* centra verticalmente los elementos */
+  justify-content: space-between; /* separa logo y menú */
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* pone los items en fila */
+  gap: 20px; /* espacio entre links */
+}
+
+nav ul li a {
+  color: #333;          /* color gris oscuro */
+  text-decoration: none; /* quita subrayado */
+  font-weight: 500;      /* opcional, para resaltar un poco */
+  transition: color 0.3s; /* transición suave para hover */
+}
+
+nav ul li a:hover {
+  color: var(--color-acento); /* color de acento al pasar el mouse */
+}
+
+a {
+  color: var(--color-acento);
+}
+
+li a{
+  color: var(--color-texto);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+li a:hover{
+  color: var(--color-acento)
+}
+
+section {
+  border-bottom: 1px solid var(--color-borde);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: (var(--color-fondo));
+  color: var(--color-texto);
+} 
