@@ -9,7 +9,7 @@ import Contacto from './pages/contacto'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='Pateperro_V1'>
       <Header />
       <Routes>
         <Route path="/" element={<Inicio />} />
