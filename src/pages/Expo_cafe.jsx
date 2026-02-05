@@ -9,18 +9,17 @@ import img8 from "../assets/images/img8.jpg"
 import img9 from "../assets/images/img9.jpg"
 import img10 from "../assets/images/img10.jpg"
 
-
 function ExpoCafe(){
   return(
-    <main>
+    <main className="expoCafe">
       {/* Introducción */}
-      <section>
+      <section className="expoCafe-titulo">
         <h2>Expo Cafe</h2>
         <p>Expo Café es una muestra fotográfica que explora el café como
           territorio cultural, social y estético.</p>
       </section>
       {/* Temáticas */}
-      <section>
+      <section className="expoCafe-tematicas">
         <h3>Temáticas:</h3>
         <ul>
           <li>Cafés del Mundo.</li>
@@ -28,7 +27,7 @@ function ExpoCafe(){
         </ul>
       </section>
       {/* Tips */}
-      <section>
+      <section className="expoCafe-tips">
         <h3>Tips:</h3>
         <ul>
           <li>
@@ -52,13 +51,13 @@ function ExpoCafe(){
         </ul>
       </section>
       {/* Curaduría */}
-      <section>
+      <section className="expoCafe-curaduria">
         <h3>Curaduría:</h3>
         <p>Los patrocinadores de la muestra se reservan el derecho de realizar una 
           curaduría sobre las imágenes propuestas.</p>
       </section>
       {/* Ejemplos */}
-      <section>
+      <section className="expoCafe-ejemplos">
         <h3>Algunos Ejemplos:</h3>
         <ul>
           <li>
@@ -67,18 +66,20 @@ function ExpoCafe(){
             </a>
           </li>
         </ul>
-        <div>
-          <img src={img1} alt="1" />
-          <img src={img2} alt="2" />
-          <img src={img3} alt="3" />
-          <img src={img4} alt="4" />
-          <img src={img5} alt="5" />
-          <img src={img6} alt="6" />
-          <img src={img7} alt="7" />
-          <img src={img8} alt="8" />
-          <img src={img9} alt="9" />
-          <img src={img10} alt="10" />
-        </div>
+        <section className="expoCafe-galeria">
+          <section className="galeria-grid">
+            <img src={img1} alt="" className="wide" />
+            <img src={img2} alt="" className="wide" />
+            <img src={img3} alt="" className="wide"/>
+            <img src={img4} alt="" className="wide"/>
+            <img src={img5} alt="" className="wide"/>
+            <img src={img6} alt="" className="wide"/>
+            <img src={img7} alt="" />
+            <img src={img8} alt="" />
+            <img src={img9} alt="" />
+            <img src={img10} alt="" />
+          </section>
+        </section>
       </section>
     </main>
   )

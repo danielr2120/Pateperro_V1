@@ -29,7 +29,12 @@ header {
   padding: 20px;
   border-bottom: 1px solid #ddd;
 }
-
+header nav ul{
+  display: flex;
+}
+header nav ul li{
+  font-size: 20px
+}
 nav ul {
   list-style: none;
   padding: 0;
@@ -72,4 +77,45 @@ footer {
   padding: 20px;
   background-color: (var(--color-fondo));
   color: var(--color-texto);
-} 
+}
+
+
+.expoCafe{
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 40px;
+}
+
+.expocafe-galeria {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
+
+.expoCafe section{
+  margin-bottom: 30px;
+}
+
+.expoCafe-galeria img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.galeria-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.galeria-grid img.wide {
+  grid-column: span 2;
+}
