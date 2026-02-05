@@ -68,16 +68,16 @@ function ExpoCafe(){
           </li>
         </ul>
         <div>
-          <img src={img1} alt="" />
-          <img src={img2} alt="" />
-          <img src={img3} alt="" />
-          <img src={img4} alt="" />
-          <img src={img5} alt="" />
-          <img src={img6} alt="" />
-          <img src={img7} alt="" />
-          <img src={img8} alt="" />
-          <img src={img9} alt="" />
-          <img src={img10} alt="" />
+          <img src={img1} alt="1" />
+          <img src={img2} alt="2" />
+          <img src={img3} alt="3" />
+          <img src={img4} alt="4" />
+          <img src={img5} alt="5" />
+          <img src={img6} alt="6" />
+          <img src={img7} alt="7" />
+          <img src={img8} alt="8" />
+          <img src={img9} alt="9" />
+          <img src={img10} alt="10" />
         </div>
       </section>
     </main>
