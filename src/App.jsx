@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from "./components/Header"
 import Footer from "./components/Footer"
-import Inicio from "./pages/inicio"
+import Inicio from "./pages/Inicio"
 import Galeria from "./pages/galeria"
 import ExpoCafe from "./pages/expo_cafe"
 import Contacto from './pages/contacto'

@@ -1,63 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 :root {
-  --color-fondo: #FFFFFF;
+  --color-fondo: #f6f1e8;
   --color-seccion: #F7F7F7;
   --color-texto: #333333;
   --color-acento: #3498DB;
   --color-borde: #DDDDDD;
   --padding-general: 20px;
+  
 }
 
-body{
-  font-family: 'Roboto', sans-serif;
-}
 h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-weight: 700;
 }
 
 body {
   background-color: var(--color-fondo);
   color: var(--color-texto);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inconsolata', monospace;
 }
 
-header {
-  background-color: var(--color-seccion);
-  display: flex; /* activa Flexbox */
-  align-items: center; /* centra verticalmente los elementos */
-  justify-content: space-between; /* separa logo y menú */
-  padding: 20px;
-  border-bottom: 1px solid #ddd;
+.header {
+  height: 70px;                 /* CLAVE */
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 0 60px;
 }
-header nav ul{
+
+.nav-left {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-left a {
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-left ul{
+  list-style: none;
   display: flex;
 }
-header nav ul li{
-  font-size: 20px
-}
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex; /* pone los items en fila */
-  gap: 20px; /* espacio entre links */
+.nav-left ul li{
+  font-size: 10px;
+  gap: 5px;
+  padding: 6px 10px;
 }
 
-nav ul li a {
-  color: #333;          /* color gris oscuro */
-  text-decoration: none; /* quita subrayado */
-  font-weight: 500;      /* opcional, para resaltar un poco */
-  transition: color 0.3s; /* transición suave para hover */
-}
-
-nav ul li a:hover {
+.nav-left ul li a:hover{
   color: var(--color-acento); /* color de acento al pasar el mouse */
 }
+
+
+.logo-texto{
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+
+.inicio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+.frase {
+  background-color: #f6f1e8;
+  padding: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.frase p {
+  max-width: 520px;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #333;
+}
+
+.imagen {
+  background-image: url("./assets/images/portada.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 
 a {
   color: var(--color-acento);
 }
-
 li a{
   color: var(--color-texto);
   text-decoration: none;
@@ -79,11 +114,10 @@ footer {
   color: var(--color-texto);
 }
 
-
 .expoCafe{
   max-width: 1200px;
   margin: auto;
-  padding: 80px 40px;
+  padding: 20px 40px;
 }
 
 .expocafe-galeria {
@@ -183,3 +217,4 @@ footer {
 .datos button:hover{
   background-color: var(--color-acento);
 }
+
