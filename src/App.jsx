@@ -2,9 +2,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import Inicio from "./pages/Inicio"
-import Galeria from "./pages/galeria"
+import Galeria from "./pages/Galeria"
 import ExpoCafe from "./pages/expo_cafe"
 import Contacto from './pages/contacto'
+import ImagenDetalle from "./pages/ImagenDetalle";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/Galeria" element={<Galeria />}/>
+        <Route path="/Galeria/:id" element={<ImagenDetalle />} />
         <Route path="/ExpoCafe" element={<ExpoCafe />}/>
         <Route path='/Contacto' element={<Contacto />}/>
       </Routes>
