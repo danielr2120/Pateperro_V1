@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 :root {
   --color-fondo: #1A1A1A;
+  --color-fondo-header: #F2EFEA;
   --color-seccion: #232323;
   --color-texto: #fff;
   --color-acento: #3498DB;
@@ -21,7 +22,10 @@ body {
 }
 
 .header {
-  background-color: #F2EFEA;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  background-color: var(--color-fondo-header);
   height: 70px;                 /* CLAVE */
   display: grid;
   grid-template-columns: 1fr auto 1fr;

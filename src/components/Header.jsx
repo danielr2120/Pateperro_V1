@@ -1,4 +1,4 @@
-import logo from '../assets/logo.svg'
+import logo from '../assets/Logo2.png'
 import { Link } from "react-router-dom"
 function Header() {
   return (
@@ -12,8 +12,12 @@ function Header() {
           <li><Link to="/Contacto">Contacto</Link></li>
         </ul>
       </nav>
-      <h1 className='logo-texto'>Colectivo Fotográfico Pateperro</h1>
-      <img src={logo} alt="Logo PatePerro" width="20px" height="20px" className='logo-img'/>
+      <li>
+        <Link to="/">
+        <img src={logo} alt="Logo PatePerro" width="186x" height="43px" className='logo-img'/>
+        </Link>
+      </li>
+      
     </header>
   )
 }
