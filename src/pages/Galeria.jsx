@@ -44,9 +44,8 @@ function Galeria() {
         <h2>Galería</h2>
 
         <p>
-          Un espacio abierto para compartir imágenes y propiciar el diálogo.
+          
         </p>
-
         <GalleryGrid images={images} />
       </section>
     </main>

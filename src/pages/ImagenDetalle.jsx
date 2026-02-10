@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import { useState } from "react";
 
 const images = [
   {
@@ -38,7 +39,15 @@ const images = [
   },
 ];
 
+
+
 function ImagenDetalle() {
+
+  const [texto, setTexto] = useState("");
+  const [comentarios, setComentarios] = useState([
+  { id: 1, autor: "Ana", texto: "La textura del grano es increíble." },
+  { id: 2, autor: "Carlos", texto: "Muy buen contraste." }
+  ]);
   const { id } = useParams();
   const image = images.find(img => img.id === id);
 
@@ -51,41 +60,52 @@ function ImagenDetalle() {
 
   {/* CONTENEDOR FLEX */}
   <div className="detalle-contenido">
-
     {/* Imagen */}
-    <div className="detalle-imagen">
-      <img src={image.url} alt={`Foto de ${image.autor}`} />
-    </div>
+  <div className="detalle-imagen">
+    <img src={image.url} alt={image.titulo} />
+    <span className="pie-imagen"><strong>Autor:</strong>{image.autor}</span>
+  </div>
 
     {/* Columna derecha */}
     <aside className="detalle-lateral">
 
-      {/* Autor */}
-      <div className="detalle-autor">
-        <strong>Autor:</strong> {image.autor}
-      </div>
-
       {/* Comentarios */}
       <section className="detalle-comentarios">
-        <h3>Comentarios</h3>
-
-        <div className="detalle-comentario">
-          <strong>Ana</strong>
-          <p>La textura del grano es increíble.</p>
-        </div>
-
-        <div className="detalle-comentario">
-          <strong>Carlos</strong>
-          <p>Muy buen contraste.</p>
-        </div>
+      <h3>Comentarios</h3>
+        {comentarios.map((c) => (
+          <div className="detalle-comentario" key={c.id}>
+            <strong>{c.autor}</strong>
+            <p>{c.texto}</p>
+          </div>
+        ))}
       </section>
+
+            <div className="escribe-comentario">
+        <textarea
+          placeholder="Escribe un comentario..."
+          value={texto}
+          onChange={(e) => setTexto(e.target.value)}
+        />
+        <button
+          onClick={() => {
+            if (!texto.trim()) return;
+            setComentarios([
+              ...comentarios,
+              { id: Date.now(), autor: "Tú", texto }
+            ]);
+            setTexto("");
+          }}
+        >
+          Comentar
+        </button>
+      </div>
 
     </aside>
 
   </div>
 
 </main>
-  );
+);
 }
 
 export default ImagenDetalle;
