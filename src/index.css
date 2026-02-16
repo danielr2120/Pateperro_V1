@@ -22,7 +22,7 @@ body {
 }
 
 .header {
-  position: sticky;
+  position: relative;
   z-index: 1000;
   top: 0;
   background-color: var(--color-fondo-header);
@@ -56,7 +56,27 @@ body {
 }
 
 .nav-left ul li a:hover{
-  color: var(--color-acento); /* color de acento al pasar el mouse */
+  color: var(--color-acento);
+}
+
+/* Ajuste logo */
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-img {
+  height: 43px;
+  width: auto;
+}
+
+/* Ícono hamburguesa */
+.menu-icon {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+  justify-self: end;
+  color: #333;
 }
 
 
@@ -242,18 +262,6 @@ footer {
   filter: brightness(70%);
 }
 
-@media (max-width: 900px) {
-  .grid {
-    column-count: 2;
-  }
-}
-
-@media (max-width: 500px) {
-  .grid {
-    column-count: 1;
-  }
-}
-
 .imagen-detalle {
   display: flex;
   justify-content: center;
@@ -358,7 +366,6 @@ footer {
 
 .escribe-comentario button:hover{
   background-color: var(--color-acento);
-
 }
 
 .detalle-comentario {
@@ -371,4 +378,78 @@ footer {
 .detalle-comentario strong {
   display: block;
   margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .nav-left {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: var(--color-fondo-header);
+    display: none;
+  }
+
+  .nav-left ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+   }
+
+  .nav-left.active {
+    display: block;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  .nav-left {
+    z-index: 999;
+  }  
+  .inicio {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .frase {
+    padding: 40px 20px;
+  }
+
+  .imagen {
+    height: 50vh;
+  }
+  .grid {
+    column-count: 1;
+  }
+  .grid{
+    column-count: 2;
+  }
+  .galeria-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contacto {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  .detalle-contenido {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .detalle-imagen img {
+    max-height: 60vh;
+  }
 }
