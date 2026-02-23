@@ -1,12 +1,13 @@
 import { useParams, useLocation } from "react-router-dom";
+import { useEffect, useRef } from "react";
 import images from "../data/imagenes.json";
 
 function ImagenDetalle() {
   const { id } = useParams();
   const location = useLocation();
+  const imageRef = useRef(null);
 
   let seccion = "";
-
   if (location.pathname.startsWith("/expocafe")) {
     seccion = "GaleriaExpoCafe";
   } else if (location.pathname.startsWith("/galeria")) {
@@ -19,10 +20,18 @@ function ImagenDetalle() {
       img.seccion === seccion
   );
 
+  useEffect(() => {
+    if (!image) return;
+
+    imageRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "center",
+    });
+  }, [image]);
+
   if (!image) {
     return <p>Imagen no encontrada</p>;
   }
-
   return (
     <main className="imagen-detalle">
       <div className="detalle-contenido">
@@ -32,8 +41,11 @@ function ImagenDetalle() {
             alt={image.nombre || image.autor}
           />
           <span className="pie-imagen">
-            <strong>Autor:</strong>{" "}
-            {image.autor || "Desconocido"}
+          <strong>{image.nombre}{" - "}{image.autor}</strong>
+          <br />
+          <strong>{image.lugar}</strong>
+          <br />
+          <strong>{image.fecha}</strong>
           </span>
         </div>
       </div>
