@@ -9,7 +9,12 @@
     "fecha": "24/05/2025",
     "descripcion_autor": "Born in Colombia and living in Belgium, is a senior full-stack developer, entrepreneur. He also practices photography as a personal hobby.",
     "camara": "Canon R50",
-    "especificaciones": "ISO 200, 1/100s,  f/2.5 50mm"
+    "especificaciones": {
+      "ISO": 200,
+      "Velocidad_obturacion": "1/100 s",
+      "Apertura": "f/2.5",
+      "Lente": "50 mm"
+    }
   },
   {
     "id": 2,
@@ -21,7 +26,12 @@
     "fecha": "",
     "descripcion": "",
     "camara": "NIKON D810",
-    "especificaciones": "ISO 3200, 1/200 s, ƒ/2.5, 50 mm"
+    "especificaciones": {
+      "ISO": 3200,
+      "Velocidad_obturacion": "1/200 s",
+      "Apertura": "f/2.5",
+      "Lente": "50 mm"
+    }
   },
   {
     "id": 3,
@@ -33,7 +43,12 @@
     "fecha": "",
     "descripcion": "",
     "camara": "iPhone 13",
-    "especificaciones": "ISO 40, 1/194 s"
+    "especificaciones": {
+      "ISO": 40,
+      "Velocidad_obturacion": "1/194 s",
+      "Apertura": "-",
+      "Lente": "iPhone 13"
+    }
   },
   {
     "id": 4,
@@ -45,7 +60,12 @@
     "fecha": "",
     "descripcion": "",
     "camara": "Canon Canon PowerShot SX70 HS",
-    "especificaciones": "ISO 400, 1/1000 s, ƒ/5.6, 51.896 mm"
+    "especificaciones": {
+      "ISO": 400,
+      "Velocidad_obturacion": "1/1000 s",
+      "Apertura": "f/5.6",
+      "Lente": "51.9 mm"
+    }
   },
   {
     "id": 5,
@@ -57,7 +77,12 @@
     "fecha": "",
     "descripcion": "",
     "camara": "Panasonic DMC-G3",
-    "especificaciones": "ISO 160, 1/400 s, ƒ/5, 120 mm"
+    "especificaciones": {
+      "ISO": 160,
+      "Velocidad_obturacion": "1/400 s",
+      "Apertura": "f/5",
+      "Lente": "120 mm"
+    }
   },
   {
     "id": 6,
@@ -69,7 +94,12 @@
     "fecha": "",
     "descripcion": "",
     "camara": "SONY ILCE-7CR",
-    "especificaciones": "Objetivo FE 24-50 mm f/2,8 G f/4\nISO 250, 1/40 s, ƒ/4.5, 32 mm"
+    "especificaciones": {
+      "ISO": 250,
+      "Velocidad_obturacion": "1/40 s",
+      "Apertura": "f/4.5",
+      "Lente": "FE 24-50 mm f/2.8 G"
+    }
   },
   {
     "id": 7,
@@ -81,7 +111,12 @@
     "fecha": "",
     "descripcion": "",
     "camara": "Cámara SONY ILCE-6400",
-    "especificaciones": "Objetivo E 18-135 mm F 3.5 – 5.6 OSS\nISO 2000 1/60 s ƒ/4.5, 32 mm "
+    "especificaciones": {
+      "ISO": 2000,
+      "Velocidad_obturacion": "1/60 s",
+      "Apertura": "f/4.5",
+      "Lente": "E 18-135 mm F3.5-5.6 OSS"
+    }
   },
   {
     "id": 8,
@@ -93,7 +128,12 @@
     "fecha": "",
     "descripcion": "",
     "camara": "Cámara NIKON D7100",
-    "especificaciones": "Objetivo AF-S VR Zoom Nikkor 70 – 200 mm\nISO 1600, 1/800 s, ƒ/3.5, 150 mm"
+    "especificaciones": {
+      "ISO": 1600,
+      "Velocidad_obturacion": "1/800 s",
+      "Apertura": "f/3.5",
+      "Lente": "AF-S VR Zoom Nikkor 70–200 mm"
+    }
   },
   {
     "id": 9,
@@ -105,7 +145,12 @@
     "fecha": "",
     "descripcion": "",
     "camara": "Apple iPhone 17",
-    "especificaciones": "Objetivo f/1,6 6 mm\nISO 100, 1/60 s"
+    "especificaciones": {
+      "ISO": 100,
+      "Velocidad_obturacion": "1/60 s",
+      "Apertura": "f/1.6",
+      "Lente": "6 mm"
+    }
   },
   {
     "id": 10,
@@ -117,7 +162,12 @@
     "fecha": "",
     "descripcion": "",
     "camara": "iPhone 13",
-    "especificaciones": "Objetivo f/1.6 5.1 mm\nISO 400, 1/60 s"
+    "especificaciones": {
+      "ISO": 400,
+      "Velocidad_obturacion": "1/60 s",
+      "Apertura": "f/1.6",
+      "Lente": "5.1 mm"
+    }
   },
   {
     "id": 11,
@@ -129,7 +179,12 @@
     "fecha": "",
     "descripcion": "",
     "camara": "",
-    "especificaciones": ""
+    "especificaciones": {
+      "ISO": "-",
+      "Velocidad_obturacion": "-",
+      "Apertura": "-",
+      "Lente": "-"
+    }
   },
   {
     "id": 12,
@@ -141,7 +196,12 @@
     "fecha": "",
     "descripcion": "",
     "camara": "",
-    "especificaciones": ""
+    "especificaciones": {
+      "ISO": "-",
+      "Velocidad_obturacion": "-",
+      "Apertura": "-",
+      "Lente": "-"
+    }
   },
   {
     "id": 13,
@@ -153,7 +213,12 @@
     "fecha": "",
     "descripcion": "",
     "camara": "iPhone 13 mini",
-    "especificaciones": "5.1mm f/1.6\nISO 160, 1/60 s"
+    "especificaciones": {
+      "ISO": 160,
+      "Velocidad_obturacion": "1/60 s",
+      "Apertura": "f/1.6",
+      "Lente": "5.1 mm"
+    }
   },
   {
     "id": 14,
@@ -165,31 +230,12 @@
     "fecha": "",
     "descripcion": "",
     "camara": "Canon Canon PowerShot SX70 HS",
-    "especificaciones": "1/25 s\nISO 400"
-  },
-  {
-    "id": 15,
-    "seccion":"GaleriaExpoCafe",
-    "url": "/Pateperro_V1/ExpoCafe/Cafe15.jpg",
-    "nombre": "LONGPLAY BALADA",
-    "lugar": "Pedregal, Colombia",
-    "autor": "David Alvarado Quiñonez",
-    "fecha": "",
-    "descripcion": "",
-    "camara": "iPhone 12",
-    "especificaciones": "1/120 s\nISO 32"
-  },
-  {
-    "id": 16,
-    "seccion":"GaleriaExpoCafe",
-    "url": "/Pateperro_V1/ExpoCafe/Cafe16.jpg",
-    "nombre": "CAFETRACTER",
-    "lugar": "Bogotá DC, Colombia",
-    "autor": "Alejandro Pérez",
-    "fecha": "",
-    "descripcion": "",
-    "camara": "",
-    "especificaciones": ""
+    "especificaciones": {
+      "ISO": 400,
+      "Velocidad_obturacion": "1/25 s",
+      "Apertura": "-",
+      "Lente": "-"
+    }
   },
     {
     "id": 1,

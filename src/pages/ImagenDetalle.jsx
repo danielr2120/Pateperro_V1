@@ -53,7 +53,14 @@ function ImagenDetalle() {
             <div className="tooltip">
               <strong>{image.camara}</strong>
               <br />
-              <strong>{image.especificaciones}</strong>
+              <strong>{image.especificaciones.ISO}</strong>
+              <br />
+              <strong>{image.especificaciones.Velocidad_obturacion}</strong>
+              <br />
+              <strong>{image.especificaciones.Apertura}</strong>
+              <br />
+              <strong>{image.especificaciones.lente}</strong>
+              <br />
             </div>
           )}
           </div>
