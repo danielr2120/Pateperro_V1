@@ -1,0 +1,243 @@
+[
+  {
+    "id": 1,
+    "seccion":"GaleriaExpoCafe",
+    "url": "/Pateperro_V1/ExpoCafe/Cafe1.jpg",
+    "nombre": "",
+    "lugar": "",
+    "autor": "",
+    "fecha": "",
+    "descripcion": "",
+    "camara": "",
+    "especificaciones": ""
+  },
+  {
+    "id": 2,
+    "seccion":"GaleriaExpoCafe",
+    "url": "/Pateperro_V1/ExpoCafe/Cafe2.jpg",
+    "nombre": "",
+    "lugar": "",
+    "autor": "",
+    "fecha": "",
+    "descripcion": "",
+    "camara": "",
+    "especificaciones": ""
+  },
+  {
+    "id": 3,
+    "seccion":"GaleriaExpoCafe",
+    "url": "/Pateperro_V1/ExpoCafe/Cafe3.png",
+    "nombre": "",
+    "lugar": "",
+    "autor": "",
+    "fecha": "",
+    "descripcion": "",
+    "camara": "",
+    "especificaciones": ""
+  },
+  {
+    "id": 4,
+    "seccion":"GaleriaExpoCafe",
+    "url": "/Pateperro_V1/ExpoCafe/Cafe4.jpg",
+    "nombre": "",
+    "lugar": "",
+    "autor": "",
+    "fecha": "",
+    "descripcion": "",
+    "camara": "",
+    "especificaciones": ""
+  },
+  {
+    "id": 5,
+    "seccion":"GaleriaExpoCafe",
+    "url": "/Pateperro_V1/ExpoCafe/Cafe5.png",
+    "nombre": "",
+    "lugar": "",
+    "autor": "",
+    "fecha": "",
+    "descripcion": "",
+    "camara": "",
+    "especificaciones": ""
+  },
+  {
+    "id": 6,
+    "seccion":"GaleriaExpoCafe",
+    "url": "/Pateperro_V1/ExpoCafe/Cafe6.jpg",
+    "nombre": "",
+    "lugar": "",
+    "autor": "",
+    "fecha": "",
+    "descripcion": "",
+    "camara": "",
+    "especificaciones": ""
+  },
+  {
+    "id": 7,
+    "seccion":"GaleriaExpoCafe",
+    "url": "/Pateperro_V1/ExpoCafe/Cafe7.png",
+    "nombre": "",
+    "lugar": "",
+    "autor": "",
+    "fecha": "",
+    "descripcion": "",
+    "camara": "",
+    "especificaciones": ""
+  },
+  {
+    "id": 8,
+    "seccion":"GaleriaExpoCafe",
+    "url": "/Pateperro_V1/ExpoCafe/Cafe8.png",
+    "nombre": "",
+    "lugar": "",
+    "autor": "",
+    "fecha": "",
+    "descripcion": "",
+    "camara": "",
+    "especificaciones": ""
+  },
+  {
+    "id": 9,
+    "seccion":"GaleriaExpoCafe",
+    "url": "/Pateperro_V1/ExpoCafe/Cafe9.png",
+    "nombre": "",
+    "lugar": "",
+    "autor": "",
+    "fecha": "",
+    "descripcion": "",
+    "camara": "",
+    "especificaciones": ""
+  },
+  {
+    "id": 10,
+    "seccion":"GaleriaExpoCafe",
+    "url": "/Pateperro_V1/ExpoCafe/Cafe10.png",
+    "nombre": "",
+    "lugar": "",
+    "autor": "",
+    "fecha": "",
+    "descripcion": "",
+    "camara": "",
+    "especificaciones": ""
+  },
+  {
+    "id": 11,
+    "seccion":"GaleriaExpoCafe",
+    "url": "/Pateperro_V1/ExpoCafe/Cafe11.png",
+    "nombre": "",
+    "lugar": "",
+    "autor": "",
+    "fecha": "",
+    "descripcion": "",
+    "camara": "",
+    "especificaciones": ""
+  },
+  {
+    "id": 12,
+    "seccion":"GaleriaExpoCafe",
+    "url": "/Pateperro_V1/ExpoCafe/Cafe12.jpg",
+    "nombre": "",
+    "lugar": "",
+    "autor": "",
+    "fecha": "",
+    "descripcion": "",
+    "camara": "",
+    "especificaciones": ""
+  },
+  {
+    "id": 13,
+    "seccion":"GaleriaExpoCafe",
+    "url": "/Pateperro_V1/ExpoCafe/Cafe13.jpg",
+    "nombre": "",
+    "lugar": "",
+    "autor": "",
+    "fecha": "",
+    "descripcion": "",
+    "camara": "",
+    "especificaciones": ""
+  },
+  {
+    "id": 14,
+    "seccion":"GaleriaExpoCafe",
+    "url": "/Pateperro_V1/ExpoCafe/Cafe14.jpg",
+    "nombre": "",
+    "lugar": "",
+    "autor": "",
+    "fecha": "",
+    "descripcion": "",
+    "camara": "",
+    "especificaciones": ""
+  },
+  {
+    "id": 15,
+    "seccion":"GaleriaExpoCafe",
+    "url": "/Pateperro_V1/ExpoCafe/Cafe15.jpg",
+    "nombre": "",
+    "lugar": "",
+    "autor": "",
+    "fecha": "",
+    "descripcion": "",
+    "camara": "",
+    "especificaciones": ""
+  },
+  {
+    "id": 16,
+    "seccion":"GaleriaExpoCafe",
+    "url": "/Pateperro_V1/ExpoCafe/Cafe16.jpg",
+    "nombre": "",
+    "lugar": "",
+    "autor": "",
+    "fecha": "",
+    "descripcion": "",
+    "camara": "",
+    "especificaciones": ""
+  },
+    {
+    "id": 1,
+    "seccion": "test",
+    "url": "/Pateperro_V1/test/Img1.jpg",
+    "autor": "Participante"
+  },
+  {
+    "id": 2,
+    "seccion": "test",
+    "url": "/Pateperro_V1/test/Img2.jpg",
+    "autor": "Participante"
+  },
+  {
+    "id": 3,
+    "seccion": "test",
+    "url": "/Pateperro_V1/test/Img3 .jpg",
+    "autor": "Participante"
+  },
+  {
+    "id": 4,
+    "seccion": "test",
+    "url": "/Pateperro_V1/test/Img4.jpg",
+    "autor": "Participante"
+  },
+  {
+    "id": 5,
+    "seccion": "test",
+    "url": "/Pateperro_V1/test/Img5.jpg",
+    "autor": "Participante"
+  },
+  {
+    "id": 6,
+    "seccion": "test",
+    "url": "/Pateperro_V1/test/Img6.jpg",
+    "autor": "Participante"
+  },
+  {
+    "id": 7,
+    "seccion": "test",
+    "url": "/Pateperro_V1/test/Img7.jpg",
+    "nombre": "",
+    "lugar": "",
+    "autor": "",
+    "fecha": "",
+    "descripcion": "",
+    "camara": "",
+    "especificaciones": ""
+  }
+
+]
