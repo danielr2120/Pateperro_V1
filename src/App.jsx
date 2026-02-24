@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Inicio from "./pages/Inicio";
@@ -10,7 +10,7 @@ import QuienesSomos from "./pages/QuienesSomos";
 
 function App() {
   return (
-    <BrowserRouter basename="Pateperro_V1">
+    <HashRouter basename="Pateperro_V1">
       <Header />
 
       <Routes>
@@ -27,7 +27,7 @@ function App() {
         <Route path="/contacto" element={<Contacto />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
