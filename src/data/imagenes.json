@@ -1,13 +1,14 @@
 [
-  {
+{
     "id": 1,
-    "seccion":"GaleriaExpoCafe",
+    "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe1.jpg",
     "nombre": "The whisper of coffee before dawn",
     "lugar": "Grez-Doiceau, Belgium",
     "autor": "Jorge Solís Pauwels",
     "fecha": "24/05/2025",
     "descripcion_autor": "Born in Colombia and living in Belgium, is a senior full-stack developer, entrepreneur. He also practices photography as a personal hobby.",
+    "descripcion_foto": "",
     "camara": "Canon R50",
     "especificaciones": {
       "ISO": 200,
@@ -18,13 +19,14 @@
   },
   {
     "id": 2,
-    "seccion":"GaleriaExpoCafe",
+    "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe2.jpg",
     "nombre": "El ritual del filtrado",
     "lugar": "Bogotá, Colombia",
     "autor": "Rafael Saavedra Arias",
     "fecha": "",
-    "descripcion": "",
+    "descripcion_autor": "",
+    "descripcion_foto": "Esta fotografía fue tomada durante una noche de octubre de 2014, cuando se celebraba el primer aniversario de Café Bourbón en Bogotá. En la escena, una pareja de amigos tostaba y servía café. Tras varios intentos y reveses, hoy son conocidos como Café Tropicalia y han sido seleccionados en los últimos dos años como uno de los diez mejores sitios de café del mundo.",
     "camara": "NIKON D810",
     "especificaciones": {
       "ISO": 3200,
@@ -35,13 +37,14 @@
   },
   {
     "id": 3,
-    "seccion":"GaleriaExpoCafe",
+    "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe3.png",
     "nombre": "Viejo Norte",
     "lugar": "Boston, USA",
     "autor": "Juan Uribe",
     "fecha": "",
-    "descripcion": "",
+    "descripcion_autor": "Fotógrafo aficionado con mas preguntas que respuestas",
+    "descripcion_foto": "Esta fue la primera de muchas fotografías dedicadas al mundo del café. La fachada se alzaba como un portal donde el mármol oscuro, las letras doradas y la cálida mampostería evocaban una sensación de permanencia en medio de un mundo acelerado.",
     "camara": "iPhone 13",
     "especificaciones": {
       "ISO": 40,
@@ -52,14 +55,15 @@
   },
   {
     "id": 4,
-    "seccion":"GaleriaExpoCafe",
+    "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe4.jpg",
     "nombre": "Granos de café en rama",
     "lugar": "Ipiales, Colombia",
     "autor": "",
     "fecha": "",
-    "descripcion": "",
-    "camara": "Canon Canon PowerShot SX70 HS",
+    "descripcion_autor": "",
+    "descripcion_foto": "Es mirar de cerca el contraste de colores que hacen de este cultivo uno de los más hermosos.",
+    "camara": "Canon PowerShot SX70 HS",
     "especificaciones": {
       "ISO": 400,
       "Velocidad_obturacion": "1/1000 s",
@@ -69,13 +73,14 @@
   },
   {
     "id": 5,
-    "seccion":"GaleriaExpoCafe",
+    "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe5.png",
     "nombre": "El sabor de un buen café",
     "lugar": "Jardín, Colombia",
     "autor": "Mónica Uribe",
     "fecha": "",
-    "descripcion": "",
+    "descripcion_autor": "Fotografia aficionada con gusto por las fotos de aves y paisajes",
+    "descripcion_foto": "Más que una bebida, el café es un vínculo. Detrás de ese sabor excepcional, existe el esfuerzo incansable de familias caficultoras que ponen su experiencia y corazón en el cultivo. Es ese amor el que viaja desde el campo hasta tu mesa, transformándose en la excusa perfecta para compartir.",
     "camara": "Panasonic DMC-G3",
     "especificaciones": {
       "ISO": 160,
@@ -86,13 +91,14 @@
   },
   {
     "id": 6,
-    "seccion":"GaleriaExpoCafe",
+    "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe6.jpg",
     "nombre": "HAPPY MEMORIES",
     "lugar": "Popayán, Colombia",
     "autor": "Shawn Coumbe",
     "fecha": "",
-    "descripcion": "",
+    "descripcion_autor": "",
+    "descripcion_foto": "",
     "camara": "SONY ILCE-7CR",
     "especificaciones": {
       "ISO": 250,
@@ -103,14 +109,15 @@
   },
   {
     "id": 7,
-    "seccion":"GaleriaExpoCafe",
+    "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe7.png",
     "nombre": "EN EL PUNTO",
     "lugar": "Duitama, Colombia",
     "autor": "Santiago Sandoval Abril",
     "fecha": "",
-    "descripcion": "",
-    "camara": "Cámara SONY ILCE-6400",
+    "descripcion_autor": "Fotógrafo, pero también actor, creador, pensador. Miembro del  colectivo Pateperro, camina con la cámara como quien lleva un espejo. Su arte no busca verdades absolutas, sino dudas necesarias. Cada imagen suya es un intento de eternidad.",
+    "descripcion_foto": "",
+    "camara": "SONY ILCE-6400",
     "especificaciones": {
       "ISO": 2000,
       "Velocidad_obturacion": "1/60 s",
@@ -120,14 +127,15 @@
   },
   {
     "id": 8,
-    "seccion":"GaleriaExpoCafe",
+    "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe8.png",
     "nombre": "A MITAD DE CAMINO",
     "lugar": "Bogotá DC, Colombia",
     "autor": "Luis Alberto Celis G.",
     "fecha": "",
-    "descripcion": "",
-    "camara": "Cámara NIKON D7100",
+    "descripcion_autor": "Fotógrafo Colombiano que se mueve entre el Diseño Gráfico y la Gestión Cultural, con estrecha relación con la producción, manejo de imagen y docencia en esa área en la Odontología. En su fotografía explorativa presenta su visión al intentar descifrar el transcurrir de la vida en el bullicio de la ciudad en la que desarrolla buena parte de su trabajo y el de otros sitios que visita con la misma intención.",
+    "descripcion_foto": "Un pare para respirar\nun sorbo de un buen tinto para meditar.",
+    "camara": "NIKON D7100",
     "especificaciones": {
       "ISO": 1600,
       "Velocidad_obturacion": "1/800 s",
@@ -137,13 +145,14 @@
   },
   {
     "id": 9,
-    "seccion":"GaleriaExpoCafe",
+    "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe9.png",
     "nombre": "RITUAL DE LA TARDE",
     "lugar": "Ipiales, Colombia",
     "autor": "Karim",
     "fecha": "",
-    "descripcion": "",
+    "descripcion_autor": "",
+    "descripcion_foto": "Un rincón acogedor donde el café, la dulzura y la calidez se juntan, un momento perfecto para detenerse y disfrutar.",
     "camara": "Apple iPhone 17",
     "especificaciones": {
       "ISO": 100,
@@ -154,13 +163,14 @@
   },
   {
     "id": 10,
-    "seccion":"GaleriaExpoCafe",
+    "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe10.png",
     "nombre": "EXPRESIONES",
     "lugar": "Pittsburgh, USA",
     "autor": "Juan Uribe",
     "fecha": "",
-    "descripcion": "",
+    "descripcion_autor": "Fotógrafo aficionado con mas preguntas que respuestas",
+    "descripcion_foto": "La idea era capturar el trabajo de la barista y rendir homenaje a su pericia y la alquimia silenciosa y rigurosa de la trastienda que transforma un simple grano de café en una taza perfecta",
     "camara": "iPhone 13",
     "especificaciones": {
       "ISO": 400,
@@ -171,13 +181,14 @@
   },
   {
     "id": 11,
-    "seccion":"GaleriaExpoCafe",
+    "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe11.png",
     "nombre": "LOS BÁRBAROS",
     "lugar": "Café Luvina, Bogotá DC, Colombia",
     "autor": "Javier Solís",
     "fecha": "",
-    "descripcion": "",
+    "descripcion_autor": "Fotógrafo de formación autodidacta. Con otros Pateperros ha realizado talleres de formación, principalmente de fotografía química. Ha expuesto su obra documental en Colombia, España, Argentina y Brasil. Viene de la vieja escuela Blanco y Negro, todavía fotografía con película; combina procesos digitales usando equipamento analógico antiguo y muestra lúdicamente los fundamentos de la fotografía",
+    "descripcion_foto": "Vigente como nunca, esta frase de Tzvetan Todorov, era el fondo de una reflexión en la Librería Luvina; un capuchino hermosamente servido era el pretexto para hacer una foto del momento. Concurríamos allí cada jueves para hablar de todo menos de fotografía. Corría el año 2008 y aún los celulares no eran tan inteligentes, una incipiente cámara del Sony Ericson fue suficiente para registrar lo profundo de esta frase",
     "camara": "",
     "especificaciones": {
       "ISO": "-",
@@ -188,13 +199,14 @@
   },
   {
     "id": 12,
-    "seccion":"GaleriaExpoCafe",
+    "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe12.jpg",
     "nombre": "GRECA",
     "lugar": "Bogotá DC, Colombia",
     "autor": "Juan Carlos Pachón",
     "fecha": "",
-    "descripcion": "",
+    "descripcion_autor": "",
+    "descripcion_foto": "",
     "camara": "",
     "especificaciones": {
       "ISO": "-",
@@ -205,13 +217,14 @@
   },
   {
     "id": 13,
-    "seccion":"GaleriaExpoCafe",
+    "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe13.jpg",
     "nombre": "VIA LACTEA",
     "lugar": "Ipiales, Colombia",
     "autor": "Javier Solís",
     "fecha": "",
-    "descripcion": "",
+    "descripcion_autor": "",
+    "descripcion_foto": "Era irónico lo que observaba en ese instante. Un café Latte en leche “deslactosada”,; revolví inadvertidamente la figura que dibujó el Barista como cuando el viento deshace un mándala de arena, y allí mágicamente apareció la Milky Way.",
     "camara": "iPhone 13 mini",
     "especificaciones": {
       "ISO": 160,
@@ -222,14 +235,15 @@
   },
   {
     "id": 14,
-    "seccion":"GaleriaExpoCafe",
+    "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe14.jpg",
     "nombre": "COLOR, AROMA Y SABOR",
     "lugar": "Ipiales, Colombia",
     "autor": "Diego Javier Romo",
     "fecha": "",
-    "descripcion": "",
-    "camara": "Canon Canon PowerShot SX70 HS",
+    "descripcion_autor": "Fotógrafo con especial interés en capturar imágenes de Naturaleza y Paisajes, su esencia, color y majestuosidad",
+    "descripcion_foto": "Refleja en colores el cambio que experimenta un buen grano de café hasta quedar listo para disfrutar.",
+    "camara": "Canon PowerShot SX70 HS",
     "especificaciones": {
       "ISO": 400,
       "Velocidad_obturacion": "1/25 s",
@@ -237,6 +251,43 @@
       "Lente": "-"
     }
   },
+    {
+    "id": 15,
+    "seccion": "GaleriaExpoCafe",
+    "url": "/Pateperro_V1/ExpoCafe/Cafe15.jpg",
+    "nombre": "LONGPLAY BALADA",
+    "lugar": "Pedregal, Colombia",
+    "autor": "David Alvarado Quiñonez",
+    "fecha": "",
+    "descripcion_autor": "Entusiasta de la fotografía nacido en Ipiales nariño, en el año 2005. En sus fotografías plasma un poco de lo que siente al ver las situaciones que pasan alrededor de su vida y trata de anclar puntos clave en forma de imágenes que lograrán llevarlo de vuelta por un momento a ese punto en especifico de su trayectoria.",
+    "descripcion_foto": "",
+    "camara": "Apple iPhone 12",
+    "especificaciones": {
+      "ISO": 32,
+      "Velocidad_obturacion": "1/120 s",
+      "Apertura": "f/1.6",
+      "Lente": ""
+    }
+  },
+  {
+    "id": 16,
+    "seccion": "GaleriaExpoCafe",
+    "url": "/Pateperro_V1/ExpoCafe/Cafe16.jpg",
+    "nombre": "CAFETRACTER",
+    "lugar": "Bogotá DC, Colombia",
+    "autor": "Alejandro Pérez",
+    "fecha": "",
+    "descripcion_autor": "Fotógrafo y artista visual colombo-noruego cuya obra explora la memoria, el cuerpo y las tensiones entre naturaleza, tecnología y sociedad. Su práctica se sitúa en la intersección entre la fotografía artística, la instalación y la investigación visual, con una mirada marcada por la experiencia migratoria y la observación crítica de los sistemas contemporáneos de producción, consumo y representación.\nNacido en Colombia y radicado durante décadas en Noruega, Pérez desarrolla un lenguaje visual que dialoga con paisajes culturales híbridos: la memoria latinoamericana, la estética nórdica y los conflictos globales de la modernidad tardía. Sus imágenes y proyectos abordan temas como la identidad en tránsito, la ecología política, la relación humano-animal y las huellas de la industria sobre el cuerpo y el territorio.",
+    "descripcion_foto": "",
+    "camara": "Apple iPhone 12",
+    "especificaciones": {
+      "ISO": "-",
+      "Velocidad_obturacion": "-",
+      "Apertura": "-",
+      "Lente": "-"
+    }
+  },
+
     {
     "id": 1,
     "seccion": "test",
@@ -277,13 +328,7 @@
     "id": 7,
     "seccion": "test",
     "url": "/Pateperro_V1/test/Img7.jpg",
-    "nombre": "",
-    "lugar": "",
-    "autor": "",
-    "fecha": "",
-    "descripcion": "",
-    "camara": "",
-    "especificaciones": ""
+    "autor": ""
   }
 
 ]

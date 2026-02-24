@@ -1,12 +1,11 @@
 import { useParams, useLocation } from "react-router-dom";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef} from "react";
 import images from "../data/imagenes.json";
 
 function ImagenDetalle() {
   const { id } = useParams();
   const location = useLocation();
   const imageRef = useRef(null);
-  const [showTooltip, setShowTooltip] = useState(false);
 
   let seccion = "";
   if (location.pathname.startsWith("/expocafe")) {
@@ -35,46 +34,63 @@ function ImagenDetalle() {
   return (
     <main className="imagen-detalle">
       <div className="detalle-contenido">
-        <div className="detalle-imagen" style={{ position: "relative" }}>
+
+        <div className="detalle-imagen">
           <img
             src={image.url}
             alt={image.nombre || image.autor}
             ref={imageRef}
           />
-          <div className="info-icon"
-            onMouseEnter={() => setShowTooltip(true)}
-            onMouseLeave={() => setShowTooltip(false)}
-          >
-          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=info" />
-          <span class="material-symbols-outlined">
-          info
-          </span>
-          {showTooltip && (
-            <div className="tooltip">
-              <strong>{image.camara}</strong>
-              <br />
-              <strong>{image.especificaciones.ISO}</strong>
-              <br />
-              <strong>{image.especificaciones.Velocidad_obturacion}</strong>
-              <br />
-              <strong>{image.especificaciones.Apertura}</strong>
-              <br />
-              <strong>{image.especificaciones.lente}</strong>
-              <br />
-            </div>
-          )}
-          </div>
-          <span className="pie-imagen">
-            <strong>{image.nombre} - {image.autor}</strong>
-            <br />
-            <strong>{image.lugar}</strong>
-            <br />
-            <strong>{image.fecha}</strong>
-          </span>
         </div>
+
+        <aside className="detalle-texto">
+
+          {image.nombre && (
+            <h1 className="titulo-obra">{image.nombre}</h1>
+          )}
+
+          {image.autor && (
+            <h2 className="autor-obra">{image.autor}</h2>
+          )}
+
+          {(image.lugar || image.fecha) && (
+            <p className="meta-obra">
+              {image.lugar}
+              {image.fecha && ` — ${image.fecha}`}
+            </p>
+          )}
+
+          {image.descripcion_foto && (
+            <p className="descripcion-foto">
+              {image.descripcion_foto}
+            </p>
+          )}
+
+          {image.descripcion_autor && (
+            <p className="descripcion-autor">
+              {image.descripcion_autor}
+            </p>
+          )}
+
+          {image.especificaciones && (
+            <ul className="ficha-tecnica">
+              {image.camara && <li>{image.camara}</li>}
+              {image.especificaciones.ISO && <li>ISO {image.especificaciones.ISO}</li>}
+              {image.especificaciones.Velocidad_obturacion && (
+                <li>{image.especificaciones.Velocidad_obturacion}</li>
+              )}
+              {image.especificaciones.Apertura && (
+                <li>{image.especificaciones.Apertura}</li>
+              )}
+              {image.especificaciones.Lente && (
+                <li>{image.especificaciones.Lente}</li>
+              )}
+            </ul>
+          )}
+
+        </aside>
       </div>
     </main>
-  );
+  )
 }
-
 export default ImagenDetalle;
