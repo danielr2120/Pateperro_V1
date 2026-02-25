@@ -49,10 +49,6 @@ function ImagenDetalle() {
             <h1 className="titulo-obra">{image.nombre}</h1>
           )}
 
-          {image.autor && (
-            <h2 className="autor-obra">{image.autor}</h2>
-          )}
-
           {(image.lugar || image.fecha) && (
             <p className="meta-obra">
               {image.lugar}
@@ -64,6 +60,10 @@ function ImagenDetalle() {
             <p className="descripcion-foto">
               {image.descripcion_foto}
             </p>
+          )}
+
+          {image.autor && (
+            <h2 className="autor-obra">{image.autor}</h2>
           )}
 
           {image.descripcion_autor && (
