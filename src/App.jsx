@@ -10,22 +10,28 @@ import QuienesSomos from "./pages/QuienesSomos";
 
 function App() {
   return (
-    <HashRouter basename="Pateperro_V1">
+    <HashRouter>
       <Header />
 
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/quienessomos" element={<QuienesSomos />} />
 
-        <Route path="/galeria" element={<Galeria seccion="test" titulo="Galería" basePath="galeria"/>} />
+        <Route
+          path="/galeria"
+          element={<Galeria seccion="test" titulo="Galería" basePath="galeria" />}
+        />
         <Route path="/galeria/:id" element={<ImagenDetalle />} />
 
         <Route path="/expocafe/informacion" element={<ExpoCafe />} />
-        <Route path="/expocafe/galeria" element={<Galeria seccion="GaleriaExpoCafe" titulo="ExpoCafe" basePath={"expocafe/galeria"}/>} />
-        <Route path="expocafe/galeria/:id" element={<ImagenDetalle />} />
+        <Route
+          path="/expocafe/galeria"
+          element={<Galeria seccion="GaleriaExpoCafe" titulo="ExpoCafe" basePath="expocafe/galeria" />} />
+        <Route path="/expocafe/galeria/:id" element={<ImagenDetalle />} />
 
         <Route path="/contacto" element={<Contacto />} />
       </Routes>
+
       <Footer />
     </HashRouter>
   );
