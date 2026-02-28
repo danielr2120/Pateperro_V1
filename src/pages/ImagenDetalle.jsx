@@ -38,27 +38,27 @@ function ImagenDetalle() {
         <div className="detalle-imagen">
           <img
             src={image.url}
-            alt={image.nombre || image.autor}
+            alt={image.nombre.es || image.autor}
             ref={imageRef}
           />
         </div>
 
         <aside className="detalle-texto">
 
-          {image.nombre && (
-            <h1 className="titulo-obra">{image.nombre}</h1>
+          {image.nombre.es && (
+            <h1 className="titulo-obra">{image.nombre.es}</h1>
           )}
 
           {(image.lugar || image.fecha) && (
             <p className="meta-obra">
-              {image.lugar}
+              {image.lugar.es}
               {image.fecha && ` — ${image.fecha}`}
             </p>
           )}
 
-          {image.descripcion_foto && (
+          {image.descripcion_foto.es && (
             <p className="descripcion-foto">
-              {image.descripcion_foto}
+              {image.descripcion_foto.es}
             </p>
           )}
 
@@ -66,9 +66,9 @@ function ImagenDetalle() {
             <h2 className="autor-obra">{image.autor}</h2>
           )}
 
-          {image.descripcion_autor && (
+          {image.descripcion_autor.es && (
             <p className="descripcion-autor">
-              {image.descripcion_autor}
+              {image.descripcion_autor.es}
             </p>
           )}
 

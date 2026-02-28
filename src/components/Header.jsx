@@ -1,12 +1,14 @@
 import { useState } from "react";
 import logo from '../assets/Logo2.png';
 import { Link } from "react-router-dom";
+import {useTranslation} from "react-i18next"
 
 function Header() {
 
   const [menuOpen, setMenuOpen] = useState(false);
-  const [expoOpen, setExpoOpen] = useState(false); // 👈 estado para dropdown
-
+  const [expoOpen, setExpoOpen] = useState(false);
+  const [langOpen, setLangOpen] = useState(false);
+  const [t, i18n] = useTranslation("global");
   return (
     <header className="header">
 
@@ -15,17 +17,16 @@ function Header() {
 
           <li>
             <Link to="/" onClick={() => setMenuOpen(false)}>
-              Inicio
+              {t("header.inicio")}
             </Link>
           </li>
 
           <li>
             <Link to="/Galeria" onClick={() => setMenuOpen(false)}>
-              Galeria
+              {t("header.galeria")}
             </Link>
           </li>
 
-          {/* Dropdown ExpoCafe */}
           <li 
             className="dropdown"
             onMouseEnter={() => setExpoOpen(true)}
@@ -42,7 +43,7 @@ function Header() {
                     setExpoOpen(false);
                   }}
                 >
-                  Información
+                  {t("header.expoCafe.galeria")}
                 </Link>
 
                 <Link 
@@ -52,7 +53,7 @@ function Header() {
                     setExpoOpen(false);
                   }}
                 >
-                  Galería
+                  {t("header.expoCafe.informacion")}
                 </Link>
               </div>
             )}
@@ -60,20 +61,19 @@ function Header() {
 
           <li>
             <Link to="/QuienesSomos" onClick={() => setMenuOpen(false)}>
-              ¿Quiénes Somos?
+              {t("header.quienesSomos")}
             </Link>
           </li>
 
           <li>
             <Link to="/Contacto" onClick={() => setMenuOpen(false)}>
-              Contacto
+              {t("header.contacto")}
             </Link>
           </li>
 
         </ul>
       </nav>
 
-      {/* Logo */}
       <div className="logo-container">
         <Link to="/">
           <img 
@@ -83,8 +83,25 @@ function Header() {
           />
         </Link>
       </div>
-
-      {/* Hamburguesa */}
+      <div className="right-actions">
+        <li 
+          className="dropdown2"
+          onMouseEnter={() => setLangOpen(true)}
+          onMouseLeave={() => setLangOpen(false)}
+        >
+          <span className="dropdown-title2">{t("header.idioma.idioma")} ▾</span>
+          {langOpen && (
+            <div className="dropdown-menu2">
+              <Link onClick={() => i18n.changeLanguage("es")}>
+                {t("header.idioma.español")}
+              </Link>
+              <Link onClick={() => i18n.changeLanguage("en")}>
+                {t("header.idioma.ingles")}
+              </Link>
+            </div>
+          )}
+        </li>
+      </div>
       <div 
         className="menu-icon"
         onClick={() => setMenuOpen(!menuOpen)}

@@ -1,0 +1,51 @@
+{
+  "header": {
+    "inicio": "Home",
+    "galeria": "Gallery",
+    "expoCafe": {
+      "informacion": "Information",
+      "galeria": "Gallery"
+    },
+    "quienesSomos": "¿Who We Are?",
+    "contacto": "Contact",
+    "idioma": {
+      "idioma": "Language",
+      "español":"Spanish",
+      "ingles": "English"
+    }
+  },
+  "inicio": {
+    "textoPrincipal": "\"The collective is a group of photographers and image enthusiasts who come together to learn photography in a collaborative way. The curiosity of some and the experience of others propose a dynamic of exchange that gives rise to questions and answers, through which we provoke independent thought that translates into images with a creative, individual, intimate language. We provoke an inner conversation that gives us elements to portray external reality.\""
+  },
+  "contacto":{
+    "informacion": "Leave us your details",
+    "nombre": "First Name",
+    "apellido": "Last Name",
+    "correo": "Email",
+    "pais":  "Country",
+    "enviar": "Submit",
+    "eleccion": "Choose a country"
+  },
+  "expoCafe": {
+    "informacion": "Expo Café is a photographic exhibition that explores coffee as a cultural, social, and aesthetic territory.",
+    "tematicas": {
+      "titulo": "Themes",
+      "tema1": "Coffees of the World.",
+      "tema2": "Coffee Culture."
+    },
+    "tips": {
+      "titulo": "Tips",
+      "tip1": "If you have not yet taken the photos, set the camera to maximum resolution in order to rigorously work the image in the printing process.",
+      "tip2": "Study the proposed themes. Get involved with the concepts, visit the places, and perceive their atmosphere.",
+      "tip3": "Get inspired by looking at the work of other photographers and look for similar settings or images near your surroundings.",
+      "tip4": "Study what equipment you could use to take the imagined photo. Draw it, make a sketch. If you are not clear about the necessary equipment, ask in the Collective's WhatsApp."
+    },
+    "curaduria": {
+      "titulo": "Curation",
+      "texto": "The sponsors of the exhibition reserve the right to carry out a curation of the proposed images."
+    },
+    "ejemplos": {
+      "titulo": "Some Examples"
+    }
+  }
+}

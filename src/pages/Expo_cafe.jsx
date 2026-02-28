@@ -8,57 +8,51 @@ import img7 from "../assets/images/img7.jpg"
 import img8 from "../assets/images/img8.jpg"
 import img9 from "../assets/images/img9.jpg"
 import img10 from "../assets/images/img10.jpg"
+import {useTranslation} from "react-i18next"
 
 function ExpoCafe(){
+  const {t, i18n} = useTranslation("global") 
   return(
     <main className="expoCafe">
       {/* Introducción */}
       <section className="expoCafe-titulo">
         <h2>Expo Cafe</h2>
-        <p>Expo Café es una muestra fotográfica que explora el café como
-          territorio cultural, social y estético.</p>
+        <p>{t("expoCafe.informacion")}</p>
       </section>
       {/* Temáticas */}
       <section className="expoCafe-tematicas">
-        <h3>Temáticas:</h3>
+        <h3>{t("expoCafe.tematicas.titulo")}:</h3>
         <ul>
-          <li>Cafés del Mundo.</li>
-          <li>Cultura del Café.</li>
+          <li>{t("expoCafe.tematicas.tema1")}</li>
+          <li>{t("expoCafe.tematicas.tema2")}</li>
         </ul>
       </section>
       {/* Tips */}
       <section className="expoCafe-tips">
-        <h3>Tips:</h3>
+        <h3>{t("expoCafe.tips.titulo")}:</h3>
         <ul>
           <li>
-            Si aún no has hecho las fotos, configura la cámara a máxima
-            resolución para poder trabajar rigurosamente la imagen en el
-            proceso de impresión.
+            {t("expoCafe.tips.tip1")}
           </li>
           <li>
-            Estudia las temáticas propuestas. Involúcrate con los conceptos,
-            visita los lugares y percibe su atmósfera.
+            {t("expoCafe.tips.tip2")}
           </li>
           <li>
-            Inspírate mirando trabajos de otros fotógrafos y busca escenarios 
-            o imágenes similares cerca de tu entorno. 
+            {t("expoCafe.tips.tip3")}
           </li>
           <li>
-            Estudia qué equipo podrías usar para hacer la foto imaginada. Dibújala, 
-            haz un boceto. Si no tienes claro el equipamento necesario, pregunta en 
-            el el Whatsap del Colectivo.
+            {t("expoCafe.tips.tip4")}
           </li>
         </ul>
       </section>
       {/* Curaduría */}
       <section className="expoCafe-curaduria">
-        <h3>Curaduría:</h3>
-        <p>Los patrocinadores de la muestra se reservan el derecho de realizar una 
-          curaduría sobre las imágenes propuestas.</p>
+        <h3>{t("expoCafe.curaduria.titulo")}:</h3>
+        <p>{t("expoCafe.curaduria.texto")}</p>
       </section>
       {/* Ejemplos */}
       <section className="expoCafe-ejemplos">
-        <h3>Algunos Ejemplos:</h3>
+        <h3>{t("expoCafe.ejemplos.titulo")}:</h3>
         <ul>
           <li>
             <a href="https://www.cartierbressonnoesunreloj.com/anders-petersen-mas-alla-de-cafe-lehmitz/">

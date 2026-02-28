@@ -1,0 +1,51 @@
+{
+  "header": {
+    "inicio": "Inicio",
+    "galeria": "Galería",
+    "expoCafe": {
+      "informacion": "Información",
+      "galeria": "Galería"
+    },
+    "quienesSomos": "¿Quiénes Somos?",
+    "contacto": "Contacto", 
+    "idioma": {
+      "idioma": "Idioma",
+      "español":"Español",
+      "ingles": "Ingles"
+    }
+  },
+  "inicio":{
+    "textoPrincipal": "\"El colectivo somos un grupo de fotógrafos y aficionados a la imagen, que nos juntamos para aprender fotografía de manera colaborativa. La curiosidad de unos y la experiencia de otros propone una dinámica de intercambio que da pie a preguntas y respuestas, con lo cual provocamos un pensamiento propio que plasma imágenes con un lenguaje creativo, individual, íntimo. Provocamos una conversa interior que nos da elementos para retratar la realidad exterior.\""
+  },
+  "contacto":{
+    "informacion": "Dejanos tus datos",
+    "nombre": "Nombre",
+    "apellido": "Apellido",
+    "correo": "Correo Electrónico",
+    "pais":  "País",
+    "enviar": "Enviar",
+    "eleccion": "Elige un país"
+  },
+    "expoCafe":{
+    "informacion": "Expo Café es una muestra fotográfica que explora el café como territorio cultural, social y estético.",
+    "tematicas":{
+      "titulo": "Temáticas",
+      "tema1": "Cafés del Mundo.",
+      "tema2": "Cultura del Café."
+    },
+    "tips":{
+      "titulo": "Tips",
+      "tip1": "Si aún no has hecho las fotos, configura la cámara a máxima resolución para poder trabajar rigurosamente la imagen en el proceso de impresión.",
+      "tip2": "Estudia las temáticas propuestas. Involúcrate con los conceptos, visita los lugares y percibe su atmósfera.",
+      "tip3": "Inspírate mirando trabajos de otros fotógrafos y busca escenarios o imágenes similares cerca de tu entorno.",
+      "tip4": "Estudia qué equipo podrías usar para hacer la foto imaginada. Dibújala, haz un boceto. Si no tienes claro el equipamento necesario, pregunta en el el Whatsap del Colectivo."
+    },
+    "curaduria":{
+      "titulo": "Curaduría",
+      "texto": "Los patrocinadores de la muestra se reservan el derecho de realizar una curaduría sobre las imágenes propuestas."
+    },
+    "ejemplos":{
+      "titulo": "Algunos Ejemplos"
+    }
+  }
+}
