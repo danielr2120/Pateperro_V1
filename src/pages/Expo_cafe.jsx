@@ -11,15 +11,15 @@ import img10 from "../assets/images/img10.jpg"
 import {useTranslation} from "react-i18next"
 
 function ExpoCafe(){
-  const {t, i18n} = useTranslation() 
+  const {t, i18n} = useTranslation("global") 
   return(
     <main className="expoCafe">
-      {/* Introducción */}
+
       <section className="expoCafe-titulo">
         <h2>Expo Cafe</h2>
         <p>{t("expoCafe.informacion")}</p>
       </section>
-      {/* Temáticas */}
+
       <section className="expoCafe-tematicas">
         <h3>{t("expoCafe.tematicas.titulo")}:</h3>
         <ul>
@@ -27,7 +27,7 @@ function ExpoCafe(){
           <li>{t("expoCafe.tematicas.tema2")}</li>
         </ul>
       </section>
-      {/* Tips */}
+
       <section className="expoCafe-tips">
         <h3>{t("expoCafe.tips.titulo")}:</h3>
         <ul>
