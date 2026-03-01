@@ -43,7 +43,7 @@ function Header() {
                     setExpoOpen(false);
                   }}
                 >
-                  {t("header.expoCafe.galeria")}
+                  {t("header.expoCafe.informacion")}
                 </Link>
 
                 <Link 
@@ -53,7 +53,7 @@ function Header() {
                     setExpoOpen(false);
                   }}
                 >
-                  {t("header.expoCafe.informacion")}
+                  {t("header.expoCafe.galeria")}
                 </Link>
               </div>
             )}

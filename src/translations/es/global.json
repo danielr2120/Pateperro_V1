@@ -47,5 +47,106 @@
     "ejemplos":{
       "titulo": "Algunos Ejemplos"
     }
+  },
+    "imagenes":{
+      "noEncontrada": "Imagen no encontrada",
+      "data":{
+        "1":{
+          "nombre": "El susurro del café antes del amanecer",
+          "lugar": "Grez-Doiceau, Bélgica",
+          "descripcion_autor": "Nacido en Colombia y radicado en Bélgica, es desarrollador full-stack senior y emprendedor. Practica la fotografía como un ejercicio personal.",
+          "descripcion_foto": ""
+        },
+        "2":{
+          "nombre": "El ritual del filtrado",
+          "lugar": "Bogotá, Colombia",
+          "descripcion_autor": "Ingeniero de software, emprendedor, innovador y fotógrafo amateur. Después de más de 20 años coqueteando con la luz sigo encontrando inspiración en momentos  rutinarios y en momentos mágicos",
+          "descripcion_foto": "Esta fotografía fue de una noche de octubre del 2014, en la que se celebraba el primer aniversario de Café Bourbón en Bogotá, en donde una pareja de amigos tostaban y servían uno de los mejores cafés que yo había probado hasta entonces. Después de fracasos y reintentos, ahora se llaman Café Tropicalia y los han seleccionado en los últimos dos años como uno de los diez mejores sitios de café en el mundo."
+        },
+        "3":{
+          "nombre": "Viejo Norte",
+          "lugar": "Boston, Estados Unidos",
+          "descripcion_autor": "Fotógrafo aficionado con más preguntas que respuestas.",
+          "descripcion_foto": "Esta fue la primera de muchas muchas fotos sobre el mundo del cafe. Esta fachada se alzaba como portal a este mundo donde el mármol oscuro, las letras doradas y la cálida mampostería evocan una sensación de permanencia en un mundo acelerado."
+        },
+        "4":{
+          "nombre": "Granos de café en rama",
+          "lugar": "Ipiales, Colombia",
+          "descripcion_autor": "",
+          "descripcion_foto": "Es mirar de cerca el contraste de colores que hacen de este cultivo uno de los más hermosos."
+        },
+        "5":{
+          "nombre": "El sabor de un buen café",
+          "lugar": "Jardín, Colombia",
+          "descripcion_autor": "Fotógrafa aficionada con gusto por las fotos de aves y paisajes.",
+          "descripcion_foto": "Más que una bebida, el café es un vínculo. Detrás de ese sabor excepcional, existe el esfuerzo incansable de familias caficultoras que ponen su experiencia y corazón en el cultivo. Es ese amor el que viaja desde el campo hasta tu mesa, transformándose en la excusa perfecta para compartir."
+        },
+        "6":{
+          "nombre": "Memorias Felices",
+          "lugar": "Grez-Doiceau, Belgium",
+          "descripcion_autor": "Viajero ávido, aventurero, fotógrafo y amante del cafe.",
+          "descripcion_foto": "Esta foto fue tomada a la sombra de la jungla durante una caminata corta con amigos cercanos a lo largo de una quebrada en las afueras de Pueblo Bello, Colombia en las montañas del Caribe."
+        } ,     
+        "7":{
+          "nombre": "EN EL PUNTO",
+          "lugar": "Duitama, Colombia",
+          "descripcion_autor": "Santiago Sandoval Abril construye desde una observación atenta de la cotidianidad. Su mirada busca la luz no solo como elemento técnico, sino como forma de revelar situaciones únicas que emergen en lo aparentemente común. Más allá del encuadre y de la imagen aislada, su fotografía se interesa por el presente como experiencia: instantes que, al ser observados con detenimiento, adquieren un carácter extraordinario. Cada imagen propone una pausa, una invitación a reconocer la presencia, el tiempo y la sensibilidad que habitan en lo cotidiano.",
+          "descripcion_foto": ""
+        },
+        "8":{
+          "nombre": "A MITAD DE CAMINO",
+          "lugar": "Grez-Doiceau, Belgium",
+          "descripcion_autor": "Fotógrafo Colombiano que se mueve entre el Diseño Gráfico y la Gestión Cultural, con estrecha relación con la producción, manejo de imagen y docencia en esa área en la Odontología. En su fotografía explorativa presenta su visión al intentar descifrar el transcurrir de la vida en el bullicio de la ciudad en la que desarrolla buena parte de su trabajo y el de otros sitios que visita con la misma intención.",
+          "descripcion_foto": "Un pare para respirar. Un sorbo de un buen tinto para meditar"
+        },
+        "9":{
+          "nombre": "RITUAL DE LA TARDE",
+          "lugar": "Ipiales, Colombia",
+          "descripcion_autor": "",
+          "descripcion_foto": "Un rincón acogedor donde el café, la dulzura y la calidez se juntan, un momento perfecto para detenerse y disfrutar."
+        },
+        "10":{
+          "nombre": "EXPRESIONES",
+          "lugar": "Pittsburgh, Estados Unidos",
+          "descripcion_autor": "Fotógrafo aficionado con más preguntas que respuestas.",
+          "descripcion_foto": "Un intento de capturar el trabajo de la barista y rendir homenaje a esa pericia y alquimia silenciosa y rigurosa de la trastienda que transforma un simple grano de café en una taza perfecta."
+        },
+        "11":{
+          "nombre": "LOS BÁRBAROS",
+          "lugar": "Café Luvina, Bogotá DC, Colombia",
+          "descripcion_autor": "Fotógrafo de formación autodidacta. Con otros Pateperros ha realizado talleres de formación, principalmente de fotografía química. Ha expuesto su obra documental en Colombia, España, Argentina y Brasil. Viene de la vieja escuela Blanco y Negro, todavía fotogra￾fía con película; combina procesos digitales usando equipamento analógico antiguo y muestra lúdicamente los fundamentos de la fotografía",
+          "descripcion_foto": "Vigente como nunca, esta frase de Tzvetan Todorov, era el fondo de una reflexión en la Librería Luvina; un capuchino hermosamente servido era el pretexto para hacer una foto del momento. Concurríamos allí cada jueves para hablar de todo menos de fotografía. Corría el año 2008 y aún los celulares no eran tan inteligentes, una incipiente cámara del Sony Ericson fue suficiente para registrar lo profundo de esta frase"
+        },
+        "12":{
+          "nombre": "GRECA",
+          "lugar": "Bogotá DC, Colombia",
+          "descripcion_autor": "@Arttesano en redes, es un Bogotáno Artesano del cuero, estudio licenciatura en Física, su monografía de grado : \"La fotografía estroboscopica en la enseñanza de la física\" fué la puerta de entrada al mundo de la fotografía como una herramienta pedagógica de construcción de conocimiento científico. En su afán de entender LA NATURALEZA humana naturaleza aborda la fotografía con una perspectiva social. Considero la foto como documento social, como testimonio, su estilo es Cándido y familiar Sus cámara es un instrumento de fijación de la memoria, sus fotos son un baúl de recuerdos apilados en cajas y discos duros. Hoy por hoy su interés es la fotografía de aves y sus registros sirven de ayuda en la identificación de las especies y su teléfono se convierte en el bastón de su memoria.",
+          "descripcion_foto": ""
+        },
+        "13":{
+          "nombre": "VIA LACTEA",
+          "lugar": "Ipiales, Colombia",
+          "descripcion_autor": "",
+          "descripcion_foto": "Era irónico lo que observaba en ese instante. Un café Latte en leche “deslactosada”,; revolví inadvertidamente la figura que dibujó el Barista como cuando el viento deshace un mándala de arena, y allí mágicamente apareció la vía láctea."
+        },
+        "14":{
+          "nombre": "COLOR, AROMA Y SABOR",
+          "lugar": "Ipiales, Colombia",
+          "descripcion_autor": "Fotógrafo con especial interés en capturar imágenes de Naturaleza y Paisajes, su esencia, color y majestuosidad",
+          "descripcion_foto": "Refleja en colores el cambio que experimenta un buen grano de café hasta quedar listo para disfrutar."
+        },
+        "15":{
+          "nombre": "LONGPLAY BALADA",
+          "lugar": "Grez-Doiceau, Belgium",
+          "descripcion_autor": "Entusiasta de la fotografía nacido en Ipiales nariño, en el año 2005. En sus fotografías plasma un poco de lo que siente al ver las situaciones que pasan alrededor de su vida y trata de anclar puntos clave en forma de imágenes que lograrán llevarlo de vuelta por un momento a ese punto en específico de su trayectoria.",
+          "descripcion_foto": ""
+        },
+        "16":{
+          "nombre": "CAFETRACTER",
+          "lugar": "Grez-Doiceau, Belgium",
+          "descripcion_autor": "Fotógrafo y artista visual colombo-noruego cuya obra explora la memoria, el cuerpo y las tensiones entre naturaleza, tecnología y sociedad. Su práctica se sitúa en la intersección entre la fotografía artística, la instalación y la investigación visual, con una mirada marcada por la experiencia migratoria y la observación crítica de los sistemas contemporáneos de producción, consumo y representación. Nacido en Colombia y radicado durante décadas en Noruega, Pérez desarrolla un lenguaje visual que dialoga con paisajes culturales híbridos: la memoria latinoamericana, la estética nórdica y los conflictos globales de la modernidad tardía. Sus imágenes y proyectos abordan temas como la identidad en tránsito, la ecología política, la relación humano-animal y las huellas de la industria sobre el cuerpo y el territorio.",
+          "descripcion_foto": ""
+        }                               
+      }
+    }
   }
-}

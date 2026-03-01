@@ -3,24 +3,8 @@
     "id": 1,
     "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe1.jpg",
-    "nombre": {
-      "es": "El susurro del café antes del amanecer",
-      "en": "The whisper of coffee before dawn"
-    },
-    "lugar": {
-      "es": "Grez-Doiceau, Bélgica",
-      "en": "Grez-Doiceau, Belgium"
-    },
     "autor": "Jorge Solís Pauwels",
     "fecha": "24/05/2025",
-    "descripcion_autor": {
-      "es": "Nacido en Colombia y radicado en Bélgica, es desarrollador full-stack senior y emprendedor. Practica la fotografía como un ejercicio personal.",
-      "en": "Born in Colombia and living in Belgium, is a senior full-stack developer, entrepreneur. He also practices photography as a personal hobby."
-    },
-    "descripcion_foto": {
-      "es": "",
-      "en": ""
-    },
     "camara": "Canon R50",
     "especificaciones": {
       "ISO": 200,
@@ -33,24 +17,8 @@
     "id": 2,
     "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe2.jpg",
-    "nombre": {
-      "es": "El ritual del filtrado",
-      "en": "The filtering ritual"
-    },
-    "lugar": {
-      "es": "Bogotá, Colombia",
-      "en": "Bogotá, Colombia"
-    },
     "autor": "Rafael Saavedra Arias",
     "fecha": "",
-    "descripcion_autor": {
-      "es": "Ingeniero de software, emprendedor, innovador y fotógrafo amateur. Después de más de 20 años coqueteando con la luz sigo encontrando inspiración en momentos  rutinarios y en momentos mágicos",
-      "en": "Software Engineer, entrepreneur, innovator, and amateur photographer. After more than 20 years of experimenting with light, I continue to find inspiration in routine and magical moments."
-    },
-    "descripcion_foto": {
-      "es": "Esta fotografía fue de una noche de octubre del 2014, en la que se celebraba el primer aniversario de Café Bourbón en Bogotá, en donde una pareja de amigos tostaban y servían uno de los mejores cafés que yo había probado hasta entonces. Después de fracasos y reintentos, ahora se llaman Café Tropicalia y los han seleccionado en los últimos dos años como uno de los diez mejores sitios de café en el mundo.",
-      "en": "This photograph was taken one evening in October 2014, during the first anniversary celebration of Café Bourbón in Bogotá. A couple of friends were roasting and serving some of the best coffee I had ever tasted. After setbacks and attempts, they are now called Café Tropicalia and have been selected in the last two years as one of the ten best coffee shops in the world."
-    },
     "camara": "NIKON D810",
     "especificaciones": {
       "ISO": 3200,
@@ -63,24 +31,8 @@
     "id": 3,
     "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe3.png",
-    "nombre": {
-      "es": "Viejo Norte",
-      "en": "Old North"
-    },
-    "lugar": {
-      "es": "Boston, Estados Unidos",
-      "en": "Boston, USA"
-    },
     "autor": "Juan Uribe",
     "fecha": "",
-    "descripcion_autor": {
-      "es": "Fotógrafo aficionado con más preguntas que respuestas.",
-      "en": "Amateur photographer with more questions than answers"
-    },
-    "descripcion_foto": {
-      "es": "Esta fue la primera de muchas muchas fotos sobre el mundo del cafe. Esta fachada se alzaba como portal a este mundo donde el mármol oscuro, las letras doradas y la cálida mampostería evocan una sensación de permanencia en un mundo acelerado.",
-      "en": "This was the first of many, many photos about the world of coffee. This facade stood as a portal to this world where the dark marble, the gold lettering, and the warm stonework evoke a sense of permanence in a fast-paced world."
-    },
     "camara": "iPhone 13",
     "especificaciones": {
       "ISO": 40,
@@ -93,24 +45,8 @@
     "id": 4,
     "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe4.jpg",
-    "nombre": {
-      "es": "Granos de café en rama",
-      "en": "Coffee cherries on the branch"
-    },
-    "lugar": {
-      "es": "Ipiales, Colombia",
-      "en": "Ipiales, Colombia"
-    },
     "autor": "",
     "fecha": "",
-    "descripcion_autor": {
-      "es": "",
-      "en": ""
-    },
-    "descripcion_foto": {
-      "es": "Es mirar de cerca el contraste de colores que hacen de este cultivo uno de los más hermosos.",
-      "en": "Looking closely at the contrasting colors makes this crop one of the most beautiful."
-    },
     "camara": "Canon PowerShot SX70 HS",
     "especificaciones": {
       "ISO": 400,
@@ -124,24 +60,8 @@
     "id": 5,
     "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe5.png",
-    "nombre": {
-      "es": "El sabor de un buen café",
-      "en": "The taste of a good coffee"
-    },
-    "lugar": {
-      "es": "Jardín, Colombia",
-      "en": "Jardín, Colombia"
-    },
     "autor": "Mónica Uribe",
     "fecha": "",
-    "descripcion_autor": {
-      "es": "Fotógrafa aficionada con gusto por las fotos de aves y paisajes.",
-      "en": "Amateur photographer with a passion for bird and landscape photography."
-    },
-    "descripcion_foto": {
-      "es": "Más que una bebida, el café es un vínculo. Detrás de ese sabor excepcional, existe el esfuerzo incansable de familias caficultoras que ponen su experiencia y corazón en el cultivo. Es ese amor el que viaja desde el campo hasta tu mesa, transformándose en la excusa perfecta para compartir.",
-      "en": "More than a beverage, coffee is a connection. Behind that exceptional flavor lies the tireless effort of coffee-growing families who pour their experience and heart into cultivation. It is that love that travels from the field to your table, becoming the perfect excuse to share"
-    },
     "camara": "Panasonic DMC-G3",
     "especificaciones": {
       "ISO": 160,
@@ -155,24 +75,8 @@
     "id": 6,
     "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe6.jpg",
-    "nombre": {
-      "es": "Memorias Felices",
-      "en": "HAPPY MEMORIES"
-    },
-    "lugar": {
-      "es": "Pueblo Bello, Colombia",
-      "en": "Pueblo Bello, Colombia"
-    },
     "autor": "Shawn Coumbe",
     "fecha": "",
-    "descripcion_autor": {
-      "es": "Viajero ávido, aventurero, fotógrafo y amante del cafe.",
-      "en": "An avid traveler, adventurer, photographer and a lover of coffee."
-    },
-    "descripcion_foto": {
-      "es": "Esta foto fue tomada a la sombra de la jungla durante una caminata corta con amigos cercanos a lo largo de una quebrada en las afueras de Pueblo Bello, Colombia en las montañas del Caribe.",
-      "en": "This was taken in the shade of the jungle while on a short hike along a stream with close friends just outside of Pueblo Bello, Colombia in the mountains of the Caribbean coast."
-    },
     "camara": "SONY ILCE-7CR",
     "especificaciones": {
       "ISO": 250,
@@ -186,24 +90,8 @@
     "id": 7,
     "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe7.png",
-    "nombre": {
-      "es": "EN EL PUNTO",
-      "en": "ON POINT"
-    },
-    "lugar": {
-      "es": "Duitama, Colombia",
-      "en": "Duitama, Colombia"
-    },
     "autor": "Santiago Sandoval Abril",
     "fecha": "",
-    "descripcion_autor": {
-      "es": "Santiago Sandoval Abril construye desde una observación atenta de la cotidianidad. Su mirada busca la luz no solo como elemento técnico, sino como forma de revelar situaciones únicas que emergen en lo aparentemente común. Más allá del encuadre y de la imagen aislada, su fotografía se interesa por el presente como experiencia: instantes que, al ser observados con detenimiento, adquieren un carácter extraordinario. Cada imagen propone una pausa, una invitación a reconocer la presencia, el tiempo y la sensibilidad que habitan en lo cotidiano.",
-      "en": "Santiago Sandoval Abril is a theatre student based in Bogotá. His work is built on a careful observation of everyday life. His gaze seeks light not only as a technical element, but as a means to reveal unique situations that emerge from the seemingly ordinary. Beyond framing and the isolated image, his photography is concerned with the present as an experience: moments that, when observed attentively, acquire an extraordinary quality. Each image proposes a pause, an invitation to recognize presence, time, and sensitivity within the everyday."
-    },
-    "descripcion_foto": {
-      "es": "",
-      "en": ""
-    },
     "camara": "SONY ILCE-6400",
     "especificaciones": {
       "ISO": 2000,
@@ -217,24 +105,8 @@
     "id": 8,
     "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe8.png",
-    "nombre": {
-      "es": "A MITAD DE CAMINO",
-      "en": "HALFWAY"
-    },
-    "lugar": {
-      "es": "Bogotá DC, Colombia",
-      "en": "Bogotá DC, Colombia"
-    },
     "autor": "Luis Alberto Celis G.",
     "fecha": "",
-    "descripcion_autor": {
-      "es": "Fotógrafo Colombiano que se mueve entre el Diseño Gráfico y la Gestión Cultural, con estrecha relación con la producción, manejo de imagen y docencia en esa área en la Odontología. En su fotografía explorativa presenta su visión al intentar descifrar el transcurrir de la vida en el bullicio de la ciudad en la que desarrolla buena parte de su trabajo y el de otros sitios que visita con la misma intención.",
-      "en": "A Colombian photographer who works at the intersection of graphic design and cultural management, with close ties to production, image management, and teaching in this field within dentistry. His exploratory photography presents his vision as he attempts to decipher the flow of life amidst the bustle of the city where he carries out much of his work, as well as in other places he visits with the same intention."
-    },
-    "descripcion_foto": {
-      "es": "Un pare para respirar\nun sorbo de un buen tinto para meditar",
-      "en": "A moment to breath\na sip of a good coffee to meditate"
-    },
     "camara": "NIKON D7100",
     "especificaciones": {
       "ISO": 1600,
@@ -248,24 +120,8 @@
     "id": 9,
     "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe9.png",
-    "nombre": {
-      "es": "RITUAL DE LA TARDE",
-      "en": "AFTERNOON RITUAL"
-    },
-    "lugar": {
-      "es": "Ipiales, Colombia",
-      "en": "Ipiales, Colombia"
-    },
     "autor": "Karim",
     "fecha": "",
-    "descripcion_autor": {
-      "es": "",
-      "en": ""
-    },
-    "descripcion_foto": {
-      "es": "Un rincón acogedor donde el café, la dulzura y la calidez se juntan, un momento perfecto para detenerse y disfrutar.",
-      "en": "A cozy corner where coffee, sweetness, and warmth come together, a perfect moment to pause and enjoy."
-    },
     "camara": "Apple iPhone 17",
     "especificaciones": {
       "ISO": 100,
@@ -279,24 +135,8 @@
     "id": 10,
     "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe10.png",
-    "nombre": {
-      "es": "EXPRESIONES",
-      "en": "EXPRESSIONS"
-    },
-    "lugar": {
-      "es": "Pittsburgh, Estados Unidos",
-      "en": "Pittsburgh, USA"
-    },
     "autor": "Juan Uribe",
     "fecha": "",
-    "descripcion_autor": {
-      "es": "Fotógrafo aficionado con más preguntas que respuestas.",
-      "en": "Amateur photographer with more questions than answers."
-    },
-    "descripcion_foto": {
-      "es": "Un intento de capturar el trabajo de la barista y rendir homenaje a esa pericia y alquimia silenciosa y rigurosa de la trastienda que transforma un simple grano de café en una taza perfecta. ",
-      "en": "An attempt to capture the work of the barista and pay homage to the skill and silent, rigorous alchemy behind the scenes that transforms a simple coffee bean into a perfect cup."
-    },
     "camara": "iPhone 13",
     "especificaciones": {
       "ISO": 400,
@@ -310,24 +150,8 @@
     "id": 11,
     "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe11.png",
-    "nombre": {
-      "es": "LOS BÁRBAROS",
-      "en": "THE BARBARIANS"
-    },
-    "lugar": {
-      "es": "Café Luvina, Bogotá DC, Colombia",
-      "en": "Café Luvina, Bogotá DC, Colombia"
-    },
     "autor": "Javier Solís",
     "fecha": "",
-    "descripcion_autor": {
-      "es": "Fotógrafo de formación autodidacta. Con otros Pateperros ha realizado talleres de formación, principalmente de fotografía química. Ha expuesto su obra documental en Colombia, España, Argentina y Brasil. Viene de la vieja escuela Blanco y Negro, todavía fotogra￾fía con película; combina procesos digitales usando equipamento analógico antiguo y muestra lúdicamente los fundamentos de la fotografía",
-      "en": "A self-taught photographer. With other members of the Pateperros group, he has conducted workshops, primarily on film photography. He has exhibited his documentary work in Colombia, Spain, Argentina, and Brazil. He comes from the old school of black and white photography and still shoots with film; he combines digital processes using vintage analog equipment and playfully demonstrates the fundamentals of photography."
-    },
-    "descripcion_foto": {
-      "es": "Vigente como nunca, esta frase de Tzvetan Todorov, era el fondo de una reflexión en la Librería Luvina; un capuchino hermosamente servido era el pretexto para hacer una foto del momento. Concurríamos allí cada jueves para hablar de todo menos de fotografía. Corría el año 2008 y aún los celulares no eran tan inteligentes, una incipiente cámara del Sony Ericson fue suficiente para registrar lo profundo de esta frase",
-      "en": "As relevant as ever, this quote from Tzvetan Todorov formed the backdrop for a discussion at the Luvina Bookstore; a beautifully prepared cappuccino was the perfect excuse to capture the moment. We met there every Thursday to talk about everything except photography. It was 2008, and cell phones weren't yet so sophisticated; a rudimentary Sony Ericsson camera was enough to record the profound meaning of this quote."
-    },
     "camara": "Sony Ericson",
     "especificaciones": {
       "ISO": "-",
@@ -341,24 +165,8 @@
     "id": 12,
     "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe12.jpg",
-    "nombre": {
-      "es": "GRECA",
-      "en": "GRECA"
-    },
-    "lugar": {
-      "es": "Bogotá DC, Colombia",
-      "en": "Bogotá DC, Colombia"
-    },
     "autor": "Juan Carlos Pachón",
     "fecha": "",
-    "descripcion_autor": {
-      "es": "@Arttesano en redes, es un Bogotáno Artesano del cuero, estudio licenciatura en Física, su monografía de grado : \"La fotografía estroboscopica en la enseñanza de la física\" fué la puerta de entrada al mundo de la fotografía como una herramienta pedagógica de construcción de conocimiento científico. En su afán de entender LA NATURALEZA humana naturaleza aborda la fotografía con una perspectiva social. Considero la foto como documento social, como testimonio, su estilo es Cándido y familiar Sus cámara es un instrumento de fijación de la memoria, sus fotos son un baúl de recuerdos apilados en cajas y discos duros. Hoy por hoy su interés es la fotografía de aves y sus registros sirven de ayuda en la identificación de las especies y su teléfono se convierte en el bastón de su memoria.",
-      "en": "@Arttesano on social media, is a Bogotá-based leather artisan. He studied Physics, and his thesis, \"Stroboscopic Photography in the Teaching of Physics,\" opened his door to the world of photography as a pedagogical tool for constructing scientific knowledge. In his quest to understand human nature, he approaches photography from a social perspective. He considers photography a social document, a testimony. His style is candid and intimate. His camera is an instrument for preserving memory; his photos are a treasure chest of memories stacked in boxes and on hard drives. Currently, his interest lies in bird photography and his records aid in species identification, and his phone becomes the walking stick of his memory."
-    },
-    "descripcion_foto": {
-      "es": "",
-      "en": ""
-    },
     "camara": "Galaxi A36",
     "especificaciones": {
       "ISO": 108,
@@ -372,24 +180,8 @@
     "id": 13,
     "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe13.jpg",
-    "nombre": {
-      "es": "VIA LACTEA",
-      "en": "Milky Way"
-    },
-    "lugar": {
-      "es": "Ipiales, Colombia",
-      "en": "Ipiales, Colombia"
-    },
     "autor": "Javier Solís",
     "fecha": "",
-    "descripcion_autor": {
-      "es": "",
-      "en": ""
-    },
-    "descripcion_foto": {
-      "es": "Era irónico lo que observaba en ese instante. Un café Latte en leche “deslactosada”,; revolví inadvertidamente la figura que dibujó el Barista como cuando el viento deshace un mándala de arena, y allí mágicamente apareció la vía láctea.",
-      "en": "What I was observing at that moment was ironic. A latte made with \"lactose-free\" milk; I inadvertently stirred the design the barista had drawn, like when the wind scatters a sand mandala, and there, magically, appeared the Milky Way."
-    },
     "camara": "iPhone 13 mini",
     "especificaciones": {
       "ISO": 160,
@@ -403,24 +195,8 @@
     "id": 14,
     "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe14.jpg",
-    "nombre": {
-      "es": "COLOR, AROMA Y SABOR",
-      "en": "COLOR, AROMA, AND FLAVOR"
-    },
-    "lugar": {
-      "es": "Ipiales, Colombia",
-      "en": "Ipiales, Colombia"
-    },
     "autor": "Diego Javier Romo",
     "fecha": "",
-    "descripcion_autor": {
-      "es": "Fotógrafo con especial interés en capturar imágenes de Naturaleza y Paisajes, su esencia, color y majestuosidad",
-      "en": "Photographer with a special interest in capturing images of nature and landscapes, their essence, color, and majesty."
-    },
-    "descripcion_foto": {
-      "es": "Refleja en colores el cambio que experimenta un buen grano de café hasta quedar listo para disfrutar.",
-      "en": "A reflexion in color of the transformation that a good coffee bean undergoes until it is ready to be enjoyed."
-    },
     "camara": "Canon PowerShot SX70 HS",
     "especificaciones": {
       "ISO": 400,
@@ -434,24 +210,8 @@
     "id": 15,
     "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe15.jpg",
-    "nombre": {
-      "es": "LONGPLAY BALADA",
-      "en": "LONGPLAY BALADA"
-    },
-    "lugar": {
-      "es": "Pedregal, Colombia",
-      "en": "Pedregal, Colombia"
-    },
     "autor": "David Alvarado Quiñonez",
     "fecha": "",
-    "descripcion_autor": {
-      "es": "Entusiasta de la fotografía nacido en Ipiales nariño, en el año 2005. En sus fotografías plasma un poco de lo que siente al ver las situaciones que pasan alrededor de su vida y trata de anclar puntos clave en forma de imágenes que lograrán llevarlo de vuelta por un momento a ese punto en específico de su trayectoria.",
-      "en": "A photography enthusiast born in Ipiales, Nariño, in 2005. In his photographs, he captures a bit of what he feels when he sees the situations that unfold around him in his life, trying to anchor key moments in images that will transport him back, for a moment, to that specific point in his journey."
-    },
-    "descripcion_foto": {
-      "es": "",
-      "en": ""
-    },
     "camara": "Apple iPhone 12",
     "especificaciones": {
       "ISO": 32,
@@ -465,28 +225,12 @@
     "id": 16,
     "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe16.jpg",
-    "nombre": {
-      "es": "CAFETRACTER",
-      "en": "CAFETRACTER"
-    },
-    "lugar": {
-      "es": "Bogotá DC, Colombia",
-      "en": "Bogotá DC, Colombia"
-    },
     "autor": "Alejandro Pérez",
     "fecha": "",
-    "descripcion_autor": {
-      "es": "Fotógrafo y artista visual colombo-noruego cuya obra explora la memoria, el cuerpo y las tensiones entre naturaleza, tecnología y sociedad. Su práctica se sitúa en la intersección entre la fotografía artística, la instalación y la investigación visual, con una mirada marcada por la experiencia migratoria y la observación crítica de los sistemas contemporáneos de producción, consumo y representación. Nacido en Colombia y radicado durante décadas en Noruega, Pérez desarrolla un lenguaje visual que dialoga con paisajes culturales híbridos: la memoria latinoamericana, la estética nórdica y los conflictos globales de la modernidad tardía. Sus imágenes y proyectos abordan temas como la identidad en tránsito, la ecología política, la relación humano-animal y las huellas de la industria sobre el cuerpo y el territorio.",
-      "en": "Colombian-Norwegian photographer and visual artist, explores memory, the body, and the tensions between nature, technology, and society. His practice lies at the intersection of artistic photography, installation, and visual research, with a perspective shaped by his migratory experience and a critical observation of contemporary systems of production, consumption, and representation. Born in Colombia and based in Norway for decades, Pérez develops a visual language that engages with hybrid cultural landscapes: Latin American memory, Nordic aesthetics, and the global conflicts of late modernity. His images and projects address themes such as identity in transit, political ecology, the human-animal relationship, and the impact of industry on the body and the land."
-    },
-    "descripcion_foto": {
-      "es": "",
-      "en": ""
-    },
-    "camara": "Apple iPhone 12",
+    "camara": "Apple iPhone 15 Pro",
     "especificaciones": {
-      "ISO": "-",
-      "Velocidad_obturacion": "-",
+      "ISO": "800",
+      "Velocidad_obturacion": "1/60 s",
       "Apertura": "-",
       "Lente": "-"
     }

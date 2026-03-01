@@ -1,11 +1,13 @@
 import { useParams, useLocation } from "react-router-dom";
-import { useEffect, useRef} from "react";
+import { useEffect, useRef } from "react";
 import images from "../data/imagenes.json";
+import { useTranslation } from "react-i18next";
 
 function ImagenDetalle() {
   const { id } = useParams();
   const location = useLocation();
   const imageRef = useRef(null);
+  const { t } = useTranslation("global");
 
   let seccion = "";
   if (location.pathname.startsWith("/expocafe")) {
@@ -20,7 +22,6 @@ function ImagenDetalle() {
 
   useEffect(() => {
     if (!image) return;
-
     imageRef.current?.scrollIntoView({
       behavior: "smooth",
       block: "center",
@@ -28,7 +29,7 @@ function ImagenDetalle() {
   }, [image]);
 
   if (!image) {
-    return <p>Imagen no encontrada</p>;
+    return <p>{t("imagenes.noEncontrada")}</p>;
   }
 
   return (
@@ -38,44 +39,46 @@ function ImagenDetalle() {
         <div className="detalle-imagen">
           <img
             src={image.url}
-            alt={image.nombre.es || image.autor}
+            alt={t(`imagenes.data.${id}.nombre`, image.autor)}
             ref={imageRef}
           />
         </div>
 
         <aside className="detalle-texto">
 
-          {image.nombre.es && (
-            <h1 className="titulo-obra">{image.nombre.es}</h1>
-          )}
+          {/* TÍTULO */}
+          <h1 className="titulo-obra">
+            {t(`imagenes.data.${id}.nombre`)}
+          </h1>
 
-          {(image.lugar || image.fecha) && (
-            <p className="meta-obra">
-              {image.lugar.es}
-              {image.fecha && ` — ${image.fecha}`}
-            </p>
-          )}
+          {/* LUGAR + FECHA */}
+          <p className="meta-obra">
+            {t(`imagenes.data.${id}.lugar`)}
+            {image.fecha && ` — ${image.fecha}`}
+          </p>
 
-          {image.descripcion_foto.es && (
-            <p className="descripcion-foto">
-              {image.descripcion_foto.es}
-            </p>
-          )}
+          {/* DESCRIPCIÓN FOTO */}
+          <p className="descripcion-foto">
+            {t(`imagenes.data.${id}.descripcion_foto`)}
+          </p>
 
-          {image.autor && (
-            <h2 className="autor-obra">{image.autor}</h2>
-          )}
+          {/* AUTOR */}
+          <h2 className="autor-obra">{image.autor}</h2>
 
-          {image.descripcion_autor.es && (
+          {/* DESCRIPCIÓN AUTOR */}
+          {t(`imagenes.data.${id}.descripcion_autor`, "") && (
             <p className="descripcion-autor">
-              {image.descripcion_autor.es}
+              {t(`imagenes.data.${id}.descripcion_autor`)}
             </p>
           )}
 
+          {/* FICHA TÉCNICA */}
           {image.especificaciones && (
             <ul className="ficha-tecnica">
               {image.camara && <li>{image.camara}</li>}
-              {image.especificaciones.ISO && <li>ISO {image.especificaciones.ISO}</li>}
+              {image.especificaciones.ISO && (
+                <li>ISO {image.especificaciones.ISO}</li>
+              )}
               {image.especificaciones.Velocidad_obturacion && (
                 <li>{image.especificaciones.Velocidad_obturacion}</li>
               )}
@@ -91,6 +94,7 @@ function ImagenDetalle() {
         </aside>
       </div>
     </main>
-  )
+  );
 }
+
 export default ImagenDetalle;

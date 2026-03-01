@@ -11,7 +11,7 @@ import img10 from "../assets/images/img10.jpg"
 import {useTranslation} from "react-i18next"
 
 function ExpoCafe(){
-  const {t, i18n} = useTranslation("global") 
+  const {t, i18n} = useTranslation() 
   return(
     <main className="expoCafe">
       {/* Introducción */}

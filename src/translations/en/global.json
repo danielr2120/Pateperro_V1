@@ -47,5 +47,106 @@
     "ejemplos": {
       "titulo": "Some Examples"
     }
+  },
+    "imagenes":{
+      "noEncontrada": "File not found",
+      "data":{
+        "1":{
+          "nombre": "The whisper of coffee before dawn",
+          "lugar": "Grez-Doiceau, Belgium",
+          "descripcion_autor": "Born in Colombia and living in Belgium, is a senior full-stack developer, entrepreneur. He also practices photography as a personal hobby.",
+          "descripcion_foto": ""
+        },
+        "2":{
+          "nombre": "The filtering ritual",
+          "lugar": "Bogotá, Colombia",
+          "descripcion_autor": "Software Engineer, entrepreneur, innovator, and amateur photographer. After more than 20 years of experimenting with light, I continue to find inspiration in routine and magical moments.",
+          "descripcion_foto": "This photograph was taken one evening in October 2014, during the first anniversary celebration of Café Bourbón in Bogotá. A couple of friends were roasting and serving some of the best coffee I had ever tasted. After setbacks and attempts, they are now called Café Tropicalia and have been selected in the last two years as one of the ten best coffee shops in the world."
+        },
+        "3":{
+          "nombre": "Old North",
+          "lugar": "Boston, USA",
+          "descripcion_autor": "Amateur photographer with more questions than answers",
+          "descripcion_foto": "This was the first of many, many photos about the world of coffee. This facade stood as a portal to this world where the dark marble, the gold lettering, and the warm stonework evoke a sense of permanence in a fast-paced world."
+        },
+        "4":{
+          "nombre": "Coffee cherries on the branch",
+          "lugar": "Ipiales, Colombia",
+          "descripcion_autor": "",
+          "descripcion_foto": "Looking closely at the contrasting colors makes this crop one of the most beautiful."
+        },
+        "5":{
+          "nombre": "The taste of a good coffee",
+          "lugar": "Jardín, Colombia",
+          "descripcion_autor": "Amateur photographer with a passion for bird and landscape photography.",
+          "descripcion_foto": "More than a beverage, coffee is a connection. Behind that exceptional flavor lies the tireless effort of coffee-growing families who pour their experience and heart into cultivation. It is that love that travels from the field to your table, becoming the perfect excuse to share"
+        },
+        "6":{
+          "nombre": "HAPPY MEMORIES",
+          "lugar": "Pueblo Bello, Colombia",
+          "descripcion_autor": "An avid traveler, adventurer, photographer and a lover of coffee.",
+          "descripcion_foto": "This was taken in the shade of the jungle while on a short hike along a stream with close friends just outside of Pueblo Bello, Colombia in the mountains of the Caribbean coast."
+        } ,     
+        "7":{
+          "nombre": "ON POINT",
+          "lugar": "Duitama, Colombia",
+          "descripcion_autor": "Santiago Sandoval Abril is a theatre student based in Bogotá. His work is built on a careful observation of everyday life. His gaze seeks light not only as a technical element, but as a means to reveal unique situations that emerge from the seemingly ordinary. Beyond framing and the isolated image, his photography is concerned with the present as an experience: moments that, when observed attentively, acquire an extraordinary quality. Each image proposes a pause, an invitation to recognize presence, time, and sensitivity within the everyday.",
+          "descripcion_foto": ""
+        },
+        "8":{
+          "nombre": "HALFWAY",
+          "lugar": "Bogotá DC, Colombia",
+          "descripcion_autor": "A Colombian photographer who works at the intersection of graphic design and cultural management, with close ties to production, image management, and teaching in this field within dentistry. His exploratory photography presents his vision as he attempts to decipher the flow of life amidst the bustle of the city where he carries out much of his work, as well as in other places he visits with the same intention.",
+          "descripcion_foto": "A moment to breath. A sip of a good coffee to meditate"
+        },
+        "9":{
+          "nombre": "AFTERNOON RITUAL",
+          "lugar": "Ipiales, Colombia",
+          "descripcion_autor": "",
+          "descripcion_foto": "A cozy corner where coffee, sweetness, and warmth come together, a perfect moment to pause and enjoy."
+        },
+        "10":{
+          "nombre": "EXPRESSIONS",
+          "lugar": "Pittsburgh, USA",
+          "descripcion_autor": "Amateur photographer with more questions than answers.",
+          "descripcion_foto": "An attempt to capture the work of the barista and pay homage to the skill and silent, rigorous alchemy behind the scenes that transforms a simple coffee bean into a perfect cup."
+        },
+        "11":{
+          "nombre": "THE BARBARIANS",
+          "lugar": "Grez-Doiceau, Belgium",
+          "descripcion_autor": "A self-taught photographer. With other members of the Pateperros group, he has conducted workshops, primarily on film photography. He has exhibited his documentary work in Colombia, Spain, Argentina, and Brazil. He comes from the old school of black and white photography and still shoots with film; he combines digital processes using vintage analog equipment and playfully demonstrates the fundamentals of photography.",
+          "descripcion_foto": "As relevant as ever, this quote from Tzvetan Todorov formed the backdrop for a discussion at the Luvina Bookstore; a beautifully prepared cappuccino was the perfect excuse to capture the moment. We met there every Thursday to talk about everything except photography. It was 2008, and cell phones weren't yet so sophisticated; a rudimentary Sony Ericsson camera was enough to record the profound meaning of this quote."
+        },
+        "12":{
+          "nombre": "GRECA",
+          "lugar": "Bogotá DC, Colombia",
+          "descripcion_autor": "@Arttesano en redes, es un Bogotáno Artesano del cuero, estudio licenciatura en Física, su monografía de grado : \"La fotografía estroboscopica en la enseñanza de la física\" fué la puerta de entrada al mundo de la fotografía como una herramienta pedagógica de construcción de conocimiento científico. En su afán de entender LA NATURALEZA humana naturaleza aborda la fotografía con una perspectiva social. Considero la foto como documento social, como testimonio, su estilo es Cándido y familiar Sus cámara es un instrumento de fijación de la memoria, sus fotos son un baúl de recuerdos apilados en cajas y discos duros. Hoy por hoy su interés es la fotografía de aves y sus registros sirven de ayuda en la identificación de las especies y su teléfono se convierte en el bastón de su memoria.",
+          "descripcion_foto": ""
+        },
+        "13":{
+          "nombre": "Milky Way",
+          "lugar": "Ipiales, Colombia",
+          "descripcion_autor": "A self-taught photographer. With other members of the Pateperros group, he has conducted workshops, primarily on film photography. He has exhibited his documentary work in Colombia, Spain, Argentina, and Brazil. He comes from the old school of black and white photography and still shoots with film; he combines digital processes using vintage analog equipment and playfully demonstrates the fundamentals of photography.",
+          "descripcion_foto": "What I was observing at that moment was ironic. A latte made with \"lactose-free\" milk; I inadvertently stirred the design the barista had drawn, like when the wind scatters a sand mandala, and there, magically, appeared the Milky Way."
+        },
+        "14":{
+          "nombre": "COLOR, AROMA, AND FLAVOR",
+          "lugar": "Ipiales, Colombia",
+          "descripcion_autor": "Photographer with a special interest in capturing images of nature and landscapes, their essence, color, and majesty.",
+          "descripcion_foto": "A reflexion in color of the transformation that a good coffee bean undergoes until it is ready to be enjoyed."
+        },
+        "15":{
+          "nombre": "LONGPLAY BALADA",
+          "lugar": "Pedregal, Colombia",
+          "descripcion_autor": "A photography enthusiast born in Ipiales, Nariño, in 2005. In his photographs, he captures a bit of what he feels when he sees the situations that unfold around him in his life, trying to anchor key moments in images that will transport him back, for a moment, to that specific point in his journey.",
+          "descripcion_foto": ""
+        },
+        "16":{
+          "nombre": "CAFETRACTER",
+          "lugar": "Bogotá DC, Colombia",
+          "descripcion_autor": "Colombian-Norwegian photographer and visual artist, explores memory, the body, and the tensions between nature, technology, and society. His practice lies at the intersection of artistic photography, installation, and visual research, with a perspective shaped by his migratory experience and a critical observation of contemporary systems of production, consumption, and representation. Born in Colombia and based in Norway for decades, Pérez develops a visual language that engages with hybrid cultural landscapes: Latin American memory, Nordic aesthetics, and the global conflicts of late modernity. His images and projects address themes such as identity in transit, political ecology, the human-animal relationship, and the impact of industry on the body and the land.",
+          "descripcion_foto": ""
+        }                               
+      }
+    }
   }
-}
