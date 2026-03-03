@@ -8,6 +8,7 @@ function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [expoOpen, setExpoOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
+  const [langMobileOpen, setLangMobileOpen] = useState(false);
   const [t, i18n] = useTranslation("global");
   return (
     <header className="header">
@@ -103,11 +104,25 @@ function Header() {
         </li>
       </div>
       <div 
+        className="lang-mobile"
+        onClick={() => setLangMobileOpen(!langMobileOpen)}
+      >
+        <span>{i18n.language.toUpperCase()}</span> ▾
+
+        {langMobileOpen && (
+          <div className="lang-mobile-dropdown">
+            <span onClick={() => i18n.changeLanguage("es")}>ES</span>
+            <span onClick={() => i18n.changeLanguage("en")}>EN</span>
+          </div>
+        )}
+      </div>
+      <div 
         className="menu-icon"
         onClick={() => setMenuOpen(!menuOpen)}
       >
         ☰
       </div>
+
 
     </header>
   );
