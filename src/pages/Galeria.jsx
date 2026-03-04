@@ -7,7 +7,7 @@ function Galeria({ titulo, albumId, basePath }) {
   useEffect(() => {
     if (!albumId) return;
 
-    fetch(`http://localhost:3001/api/images?albumId=${albumId}`)
+    fetch(`http://shows-scheduling-antibodies-cement.trycloudflare.com:3001/api/images?albumId=${albumId}`)
       .then(res => res.json())
       .then(data => setImages(data))
       .catch(err => console.error(err));
