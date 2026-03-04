@@ -18,7 +18,7 @@ function GalleryGrid({ images, basePath }) {
           to={`/${basePath}/${img.id}`}
         >
           <img
-            src={`http://https://shows-scheduling-antibodies-cement.trycloudflare.com:3001/api/image/${img.id}`}
+            src={`https://shows-scheduling-antibodies-cement.trycloudflare.com:3001/api/image/${img.id}`}
             alt={img.originalFileName}
             style={{ width: "100%", objectFit: "cover" }}
           />
