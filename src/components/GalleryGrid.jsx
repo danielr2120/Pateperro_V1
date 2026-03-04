@@ -6,6 +6,10 @@ function GalleryGrid({ images, basePath }) {
     return null;
   }
 
+  if (!images || images.length === 0) {
+    return <p>No hay imágenes disponibles.</p>;
+  }
+
   return (
     <div className="grid">
       {images.map((img) => (
@@ -13,7 +17,11 @@ function GalleryGrid({ images, basePath }) {
           key={img.id}
           to={`/${basePath}/${img.id}`}
         >
-          <img src={img.url} alt="" />
+          <img
+            src={`http://https://shows-scheduling-antibodies-cement.trycloudflare.com:3001/api/image/${img.id}`}
+            alt={img.originalFileName}
+            style={{ width: "100%", objectFit: "cover" }}
+          />
         </Link>
       ))}
     </div>

@@ -19,14 +19,14 @@ function App() {
 
         <Route
           path="/galeria"
-          element={<Galeria seccion="test" titulo="Galería" basePath="galeria" />}
+          element={<Galeria albumId="7274e521-62b2-4106-9966-9d5a76ba0c70" titulo="Galería" basePath="galeria" />}
         />
         <Route path="/galeria/:id" element={<ImagenDetalle />} />
 
         <Route path="/expocafe/informacion" element={<ExpoCafe />} />
         <Route
           path="/expocafe/galeria"
-          element={<Galeria seccion="GaleriaExpoCafe" titulo="ExpoCafe" basePath="expocafe/galeria" />} />
+          element={<Galeria albumId="f2d28afb-abe2-4baa-9b1e-02de6967b5f9" titulo="ExpoCafe" basePath="expocafe/galeria" />} />
         <Route path="/expocafe/galeria/:id" element={<ImagenDetalle />} />
 
         <Route path="/contacto" element={<Contacto />} />

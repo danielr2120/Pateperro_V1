@@ -1,8 +1,7 @@
 [
   {
     "id": 1,
-    "seccion": "GaleriaExpoCafe",
-    "url": "/Pateperro_V1/ExpoCafe/Cafe1.jpg",
+    "immichId": "",
     "autor": "Jorge Solís Pauwels",
     "fecha": "24/05/2025",
     "camara": "Canon R50",
@@ -15,8 +14,7 @@
   },
   {
     "id": 2,
-    "seccion": "GaleriaExpoCafe",
-    "url": "/Pateperro_V1/ExpoCafe/Cafe2.jpg",
+    "immichId": "",
     "autor": "Rafael Saavedra Arias",
     "fecha": "",
     "camara": "NIKON D810",
@@ -29,8 +27,7 @@
   },
   {
     "id": 3,
-    "seccion": "GaleriaExpoCafe",
-    "url": "/Pateperro_V1/ExpoCafe/Cafe3.png",
+    "immichId": "",
     "autor": "Juan Uribe",
     "fecha": "",
     "camara": "iPhone 13",
@@ -43,8 +40,7 @@
   },
   {
     "id": 4,
-    "seccion": "GaleriaExpoCafe",
-    "url": "/Pateperro_V1/ExpoCafe/Cafe4.jpg",
+    "immichId": "",
     "autor": "",
     "fecha": "",
     "camara": "Canon PowerShot SX70 HS",
@@ -58,8 +54,7 @@
 
   {
     "id": 5,
-    "seccion": "GaleriaExpoCafe",
-    "url": "/Pateperro_V1/ExpoCafe/Cafe5.png",
+    "immichId": "",
     "autor": "Mónica Uribe",
     "fecha": "",
     "camara": "Panasonic DMC-G3",
@@ -73,8 +68,7 @@
 
   {
     "id": 6,
-    "seccion": "GaleriaExpoCafe",
-    "url": "/Pateperro_V1/ExpoCafe/Cafe6.jpg",
+    "immichId": "",
     "autor": "Shawn Coumbe",
     "fecha": "",
     "camara": "SONY ILCE-7CR",
@@ -88,8 +82,7 @@
 
   {
     "id": 7,
-    "seccion": "GaleriaExpoCafe",
-    "url": "/Pateperro_V1/ExpoCafe/Cafe7.png",
+    "immichId": "",
     "autor": "Santiago Sandoval Abril",
     "fecha": "",
     "camara": "SONY ILCE-6400",
@@ -103,8 +96,7 @@
 
   {
     "id": 8,
-    "seccion": "GaleriaExpoCafe",
-    "url": "/Pateperro_V1/ExpoCafe/Cafe8.png",
+    "immichId": "",
     "autor": "Luis Alberto Celis G.",
     "fecha": "",
     "camara": "NIKON D7100",
@@ -118,8 +110,7 @@
 
   {
     "id": 9,
-    "seccion": "GaleriaExpoCafe",
-    "url": "/Pateperro_V1/ExpoCafe/Cafe9.png",
+    "immichId": "",
     "autor": "Karim",
     "fecha": "",
     "camara": "Apple iPhone 17",
@@ -133,8 +124,7 @@
 
   {
     "id": 10,
-    "seccion": "GaleriaExpoCafe",
-    "url": "/Pateperro_V1/ExpoCafe/Cafe10.png",
+    "immichId": "",
     "autor": "Juan Uribe",
     "fecha": "",
     "camara": "iPhone 13",
@@ -148,8 +138,7 @@
 
   {
     "id": 11,
-    "seccion": "GaleriaExpoCafe",
-    "url": "/Pateperro_V1/ExpoCafe/Cafe11.png",
+    "immichId": "",
     "autor": "Javier Solís",
     "fecha": "",
     "camara": "Sony Ericson",
@@ -163,8 +152,7 @@
 
   {
     "id": 12,
-    "seccion": "GaleriaExpoCafe",
-    "url": "/Pateperro_V1/ExpoCafe/Cafe12.jpg",
+    "immichId": "",
     "autor": "Juan Carlos Pachón",
     "fecha": "",
     "camara": "Galaxi A36",
@@ -178,8 +166,7 @@
 
   {
     "id": 13,
-    "seccion": "GaleriaExpoCafe",
-    "url": "/Pateperro_V1/ExpoCafe/Cafe13.jpg",
+    "immichId": "",
     "autor": "Javier Solís",
     "fecha": "",
     "camara": "iPhone 13 mini",
@@ -193,8 +180,6 @@
 
   {
     "id": 14,
-    "seccion": "GaleriaExpoCafe",
-    "url": "/Pateperro_V1/ExpoCafe/Cafe14.jpg",
     "autor": "Diego Javier Romo",
     "fecha": "",
     "camara": "Canon PowerShot SX70 HS",
@@ -207,9 +192,7 @@
   },
 
   {
-    "id": 15,
-    "seccion": "GaleriaExpoCafe",
-    "url": "/Pateperro_V1/ExpoCafe/Cafe15.jpg",
+    "id": "55687b93-31ed-4b9b-a9f9-423ccc66dcc6",
     "autor": "David Alvarado Quiñonez",
     "fecha": "",
     "camara": "Apple iPhone 12",
@@ -222,7 +205,8 @@
   },
 
   {
-    "id": 16,
+    "id": "501632ce-012f-40ea-b8b3-83bbda3aaea8",
+    "immichId":"",
     "seccion": "GaleriaExpoCafe",
     "url": "/Pateperro_V1/ExpoCafe/Cafe16.jpg",
     "autor": "Alejandro Pérez",

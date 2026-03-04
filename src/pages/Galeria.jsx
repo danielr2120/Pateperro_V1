@@ -1,18 +1,22 @@
-import images from "../data/imagenes.json";
+import { useEffect, useState } from "react";
 import GalleryGrid from "../components/GalleryGrid";
 
-function Galeria({ seccion, titulo, basePath }) {
-  const imagesFiltradas = images.filter(
-    (img) => img.seccion === seccion
-  );
+function Galeria({ titulo, albumId, basePath }) {
+  const [images, setImages] = useState([]);
+
+  useEffect(() => {
+    if (!albumId) return;
+
+    fetch(`http://localhost:3001/api/images?albumId=${albumId}`)
+      .then(res => res.json())
+      .then(data => setImages(data))
+      .catch(err => console.error(err));
+  }, [albumId]);
 
   return (
     <main>
       <h1>{titulo}</h1>
-      <GalleryGrid
-        images={imagesFiltradas}
-        basePath={basePath}
-      />
+      <GalleryGrid images={images} basePath={basePath} />
     </main>
   );
 }
