@@ -51,85 +51,85 @@
     "imagenes":{
       "noEncontrada": "File not found",
       "data":{
-        "1":{
+        "f7f918a4-d27c-4cab-b53d-8985125954d8":{
           "nombre": "The whisper of coffee before dawn",
           "lugar": "Grez-Doiceau, Belgium",
           "descripcion_autor": "Born in Colombia and living in Belgium, is a senior full-stack developer, entrepreneur. He also practices photography as a personal hobby.",
           "descripcion_foto": ""
         },
-        "2":{
+        "3ad7fa9f-b303-4c03-8c5b-491c4f238ec0":{
           "nombre": "The filtering ritual",
           "lugar": "Bogotá, Colombia",
           "descripcion_autor": "Software Engineer, entrepreneur, innovator, and amateur photographer. After more than 20 years of experimenting with light, I continue to find inspiration in routine and magical moments.",
           "descripcion_foto": "This photograph was taken one evening in October 2014, during the first anniversary celebration of Café Bourbón in Bogotá. A couple of friends were roasting and serving some of the best coffee I had ever tasted. After setbacks and attempts, they are now called Café Tropicalia and have been selected in the last two years as one of the ten best coffee shops in the world."
         },
-        "3":{
+        "273e9604-0554-4d16-8e17-4e68343033d2":{
           "nombre": "Old North",
           "lugar": "Boston, USA",
           "descripcion_autor": "Amateur photographer with more questions than answers",
           "descripcion_foto": "This was the first of many, many photos about the world of coffee. This facade stood as a portal to this world where the dark marble, the gold lettering, and the warm stonework evoke a sense of permanence in a fast-paced world."
         },
-        "4":{
+        "6494055d-6264-4a18-b232-a6fd1b6764a8":{
           "nombre": "Coffee cherries on the branch",
           "lugar": "Ipiales, Colombia",
           "descripcion_autor": "",
           "descripcion_foto": "Looking closely at the contrasting colors makes this crop one of the most beautiful."
         },
-        "5":{
+        "3b0d387d-b407-4ade-921f-4daae67fb368":{
           "nombre": "The taste of a good coffee",
           "lugar": "Jardín, Colombia",
           "descripcion_autor": "Amateur photographer with a passion for bird and landscape photography.",
           "descripcion_foto": "More than a beverage, coffee is a connection. Behind that exceptional flavor lies the tireless effort of coffee-growing families who pour their experience and heart into cultivation. It is that love that travels from the field to your table, becoming the perfect excuse to share"
         },
-        "6":{
+        "0748cbc2-15f0-49a7-94dd-c12f1724fadc":{
           "nombre": "HAPPY MEMORIES",
           "lugar": "Pueblo Bello, Colombia",
           "descripcion_autor": "An avid traveler, adventurer, photographer and a lover of coffee.",
           "descripcion_foto": "This was taken in the shade of the jungle while on a short hike along a stream with close friends just outside of Pueblo Bello, Colombia in the mountains of the Caribbean coast."
         } ,     
-        "7":{
+        "75e34310-4dff-4ffb-80ae-f36a4a56730c":{
           "nombre": "ON POINT",
           "lugar": "Duitama, Colombia",
           "descripcion_autor": "Santiago Sandoval Abril is a theatre student based in Bogotá. His work is built on a careful observation of everyday life. His gaze seeks light not only as a technical element, but as a means to reveal unique situations that emerge from the seemingly ordinary. Beyond framing and the isolated image, his photography is concerned with the present as an experience: moments that, when observed attentively, acquire an extraordinary quality. Each image proposes a pause, an invitation to recognize presence, time, and sensitivity within the everyday.",
           "descripcion_foto": ""
         },
-        "8":{
+        "c194796e-e978-4941-b6cc-7704d0c553b0":{
           "nombre": "HALFWAY",
           "lugar": "Bogotá DC, Colombia",
           "descripcion_autor": "A Colombian photographer who works at the intersection of graphic design and cultural management, with close ties to production, image management, and teaching in this field within dentistry. His exploratory photography presents his vision as he attempts to decipher the flow of life amidst the bustle of the city where he carries out much of his work, as well as in other places he visits with the same intention.",
           "descripcion_foto": "A moment to breath. A sip of a good coffee to meditate"
         },
-        "9":{
+        "b7ea8cb-a5b8-4ab1-b915-ed1da8ad26b7":{
           "nombre": "AFTERNOON RITUAL",
           "lugar": "Ipiales, Colombia",
           "descripcion_autor": "",
           "descripcion_foto": "A cozy corner where coffee, sweetness, and warmth come together, a perfect moment to pause and enjoy."
         },
-        "10":{
+        "d9493745-b9c7-4385-a6a5-4d428a15c171":{
           "nombre": "EXPRESSIONS",
           "lugar": "Pittsburgh, USA",
           "descripcion_autor": "Amateur photographer with more questions than answers.",
           "descripcion_foto": "An attempt to capture the work of the barista and pay homage to the skill and silent, rigorous alchemy behind the scenes that transforms a simple coffee bean into a perfect cup."
         },
-        "11":{
+        "3736eeaf-c99d-4e95-87aa-96870b528b14":{
           "nombre": "THE BARBARIANS",
           "lugar": "Grez-Doiceau, Belgium",
           "descripcion_autor": "A self-taught photographer. With other members of the Pateperros group, he has conducted workshops, primarily on film photography. He has exhibited his documentary work in Colombia, Spain, Argentina, and Brazil. He comes from the old school of black and white photography and still shoots with film; he combines digital processes using vintage analog equipment and playfully demonstrates the fundamentals of photography.",
           "descripcion_foto": "As relevant as ever, this quote from Tzvetan Todorov formed the backdrop for a discussion at the Luvina Bookstore; a beautifully prepared cappuccino was the perfect excuse to capture the moment. We met there every Thursday to talk about everything except photography. It was 2008, and cell phones weren't yet so sophisticated; a rudimentary Sony Ericsson camera was enough to record the profound meaning of this quote."
         },
-        "12":{
+        "d321215b-953a-4024-807d-cfc96c8a78b8":{
           "nombre": "GRECA",
           "lugar": "Bogotá DC, Colombia",
           "descripcion_autor": "@Arttesano on social media, is a Bogotá-based leather artisan. He studied Physics, and his thesis, \"Stroboscopic Photography in the Teaching of Physics,\"opened his door to the world of photography as a pedagogical tool for constructing scientific knowledge. In his quest to understand human nature, he approaches photography from a social perspective.He considers photography a social document, a testimony. His style is candid and intimate. His camera is an instrument for preserving memory; his photos are a treasure chest of memories stacked in boxes and on hard drives. Currently, his interest lies in bird photography and his records aid in species identification, and his phone becomes the walking stick of his memory.",
           "descripcion_foto": ""
         },
-        "13":{
+        "c1bbff4e-df21-47e9-9a7f-92e95c782d98":{
           "nombre": "Milky Way",
           "lugar": "Ipiales, Colombia",
           "descripcion_autor": "A self-taught photographer. With other members of the Pateperros group, he has conducted workshops, primarily on film photography. He has exhibited his documentary work in Colombia, Spain, Argentina, and Brazil. He comes from the old school of black and white photography and still shoots with film; he combines digital processes using vintage analog equipment and playfully demonstrates the fundamentals of photography.",
           "descripcion_foto": "What I was observing at that moment was ironic. A latte made with \"lactose-free\" milk; I inadvertently stirred the design the barista had drawn, like when the wind scatters a sand mandala, and there, magically, appeared the Milky Way."
         },
-        "14":{
+        "5696a081-3de1-4543-b2ca-e84b0549130f":{
           "nombre": "COLOR, AROMA, AND FLAVOR",
           "lugar": "Ipiales, Colombia",
           "descripcion_autor": "Photographer with a special interest in capturing images of nature and landscapes, their essence, color, and majesty.",

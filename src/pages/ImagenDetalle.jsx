@@ -17,7 +17,7 @@ function ImagenDetalle() {
   }
 
   const image = images.find(
-    (img) => String(img.id) === String(id) && img.seccion === seccion
+    (img) => String(img.id) === String(id)
   );
 
   useEffect(() => {
@@ -38,7 +38,7 @@ function ImagenDetalle() {
 
         <div className="detalle-imagen">
           <img
-            src={image.url}
+            src={`https://shows-scheduling-antibodies-cement.trycloudflare.com/api/image/${image.id}`}
             alt={t(`imagenes.data.${id}.nombre`, image.autor)}
             ref={imageRef}
           />

@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "f7f918a4-d27c-4cab-b53d-8985125954d8",
     "immichId": "",
     "autor": "Jorge Solís Pauwels",
     "fecha": "24/05/2025",
@@ -13,7 +13,7 @@
     }
   },
   {
-    "id": 2,
+    "id": "3ad7fa9f-b303-4c03-8c5b-491c4f238ec0",
     "immichId": "",
     "autor": "Rafael Saavedra Arias",
     "fecha": "",
@@ -26,7 +26,7 @@
     }
   },
   {
-    "id": 3,
+    "id": "273e9604-0554-4d16-8e17-4e68343033d2",
     "immichId": "",
     "autor": "Juan Uribe",
     "fecha": "",
@@ -39,7 +39,7 @@
     }
   },
   {
-    "id": 4,
+    "id": "6494055d-6264-4a18-b232-a6fd1b6764a8",
     "immichId": "",
     "autor": "",
     "fecha": "",
@@ -53,7 +53,7 @@
   },
 
   {
-    "id": 5,
+    "id": "3b0d387d-b407-4ade-921f-4daae67fb368",
     "immichId": "",
     "autor": "Mónica Uribe",
     "fecha": "",
@@ -67,7 +67,7 @@
   },
 
   {
-    "id": 6,
+    "id": "0748cbc2-15f0-49a7-94dd-c12f1724fadc",
     "immichId": "",
     "autor": "Shawn Coumbe",
     "fecha": "",
@@ -81,7 +81,7 @@
   },
 
   {
-    "id": 7,
+    "id": "75e34310-4dff-4ffb-80ae-f36a4a56730c",
     "immichId": "",
     "autor": "Santiago Sandoval Abril",
     "fecha": "",
@@ -95,7 +95,7 @@
   },
 
   {
-    "id": 8,
+    "id": "c194796e-e978-4941-b6cc-7704d0c553b0",
     "immichId": "",
     "autor": "Luis Alberto Celis G.",
     "fecha": "",
@@ -109,7 +109,7 @@
   },
 
   {
-    "id": 9,
+    "id": "eb7ea8cb-a5b8-4ab1-b915-ed1da8ad26b7",
     "immichId": "",
     "autor": "Karim",
     "fecha": "",
@@ -123,7 +123,7 @@
   },
 
   {
-    "id": 10,
+    "id": "d9493745-b9c7-4385-a6a5-4d428a15c171",
     "immichId": "",
     "autor": "Juan Uribe",
     "fecha": "",
@@ -137,7 +137,7 @@
   },
 
   {
-    "id": 11,
+    "id": "3736eeaf-c99d-4e95-87aa-96870b528b14",
     "immichId": "",
     "autor": "Javier Solís",
     "fecha": "",
@@ -151,7 +151,7 @@
   },
 
   {
-    "id": 12,
+    "id": "d321215b-953a-4024-807d-cfc96c8a78b8",
     "immichId": "",
     "autor": "Juan Carlos Pachón",
     "fecha": "",
@@ -165,7 +165,7 @@
   },
 
   {
-    "id": 13,
+    "id": "c1bbff4e-df21-47e9-9a7f-92e95c782d98",
     "immichId": "",
     "autor": "Javier Solís",
     "fecha": "",
@@ -179,7 +179,7 @@
   },
 
   {
-    "id": 14,
+    "id": "5696a081-3de1-4543-b2ca-e84b0549130f",
     "autor": "Diego Javier Romo",
     "fecha": "",
     "camara": "Canon PowerShot SX70 HS",
@@ -206,9 +206,6 @@
 
   {
     "id": "501632ce-012f-40ea-b8b3-83bbda3aaea8",
-    "immichId":"",
-    "seccion": "GaleriaExpoCafe",
-    "url": "/Pateperro_V1/ExpoCafe/Cafe16.jpg",
     "autor": "Alejandro Pérez",
     "fecha": "",
     "camara": "Apple iPhone 15 Pro",
