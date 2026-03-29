@@ -38,7 +38,7 @@ function ImagenDetalle() {
 
         <div className="detalle-imagen">
           <img
-            src={`https://shows-scheduling-antibodies-cement.trycloudflare.com/api/image/${image.id}`}
+            src={`https://typing-anna-sol-eos.trycloudflare.com/api/image/${image.id}`}
             alt={t(`imagenes.data.${id}.nombre`, image.autor)}
             ref={imageRef}
           />
