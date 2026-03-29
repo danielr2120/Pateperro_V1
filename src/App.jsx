@@ -26,7 +26,7 @@ function App() {
         <Route path="/expocafe/informacion" element={<ExpoCafe />} />
         <Route
           path="/expocafe/galeria"
-          element={<Galeria albumId="f2d28afb-abe2-4baa-9b1e-02de6967b5f9" titulo="ExpoCafe" basePath="expocafe/galeria" />} />
+          element={<Galeria albumId="9b52e84f-6198-4181-8aa5-09096dd9e4bc" titulo="ExpoCafe" basePath="expocafe/galeria" />} />
         <Route path="/expocafe/galeria/:id" element={<ImagenDetalle />} />
 
         <Route path="/contacto" element={<Contacto />} />

@@ -7,7 +7,7 @@ function Galeria({ titulo, albumId, basePath }) {
   useEffect(() => {
     if (!albumId) return;
 
-    fetch(`https://typing-anna-sol-eos.trycloudflare.com/api/images?albumId=${albumId}`)
+    fetch(`https://fotos.pateperros.com/api/images?albumId=${albumId}`)
       .then(res => res.json())
       .then(data => setImages(data))
       .catch(err => console.error(err));
